@@ -1,0 +1,191 @@
+\documentclass[12pt, letterpaper, spanish]{article}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc} % Puede depender del sistema o editor
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{mathrsfs}
+\usepackage{pstricks-add}
+\usepackage{pgfkeys}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+\usepackage{tikz}
+\usetikzlibrary{fit,positioning}
+
+\begin{document}
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE Instituto Politécnico Nacional\\ Unidad Profesional Interdisiplinaria de Ingenierias campus Zacatecas\par}
+	\vspace{1cm}
+	{\scshape\Large Probabilidad Y Estadistica\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Tarea 3\par}
+	\vspace{2cm}
+	{\Large\itshape Gerardo Ayala Juárez\par}
+	{\Large\itshape Olando Odiseo Belmonte Flores\par}
+	{\Large\itshape Lucía Monserrat López Méndez\par}
+	{\Large\itshape Oscar Iván Palacions Ulloa\par}
+	\vfill
+	Maestro:\par
+	\textsc{
+	Rosendo Vasquez Bañuelos}
+	\vfill
+% Bottom of the page
+	{\large \today \par}
+\end{titlepage}
+
+\textbf{11.} Una Comañía de fondos de inversión mutua ofrece a sus clientes varios fondos diferntes: un fondo de mercado de dinero, tres fodos de bonos (a corto, intermedio y largo plazo), dos fondos de acciones (de moderado y alto riesgo) y un fondo balanceado. Entre los clientes que poseen acciones en un solo fondo, los porcentajes de clientes en los diferntes fondos son como sigue:\\ \\
+
+\begin{tabular}{cccc}
+    Mercado de dinero & 20\% & Acciones de alto riesgo & 18\% \\
+    Bonos a corto plazo & 15\% & Acciones de riesgo moderado & 25\% \\
+    Bonos a plazo intermedio & 10\% & Balanceadas & 7\% \\
+    Bonos a largo plazo & 5\%&\null&\null
+\end{tabular}
+Se selecciona al azar un cliente que posee acciones en sólo un fondo
+\begin{enumerate}[a)]
+    \item ¿Cuál es la probabilidad de que el individuo seleccionado posea ecciones en el fondo balanceado?\\
+    La probabilidas de que el individuo seleccionado posea ecciones en el fondo balanceado es $0.07$
+    \item ¿Cuál es la probabilidad de que el individuo posea acciones en un fondo de bonos?\\
+    Si\\
+    A:Bonos a corto plazo & $15\%$ \\
+    B:Bonos a plazo intermedio & $10\%$ \\
+    C:Bonos a largo plazo & $5\%$\\
+    Entonces la probabilidad de que el individuo posea acciones en un fondo de bono esta dada por:\\
+    $(A\cup B\cup C)= 15\% + 10\% + 5\%$ = $30\%$\\
+    $P(A\cup B\cup C)=0.3$
+    \item ¿Cuál es la probabilidad de que el individuo seleccionado no posea acciones en un fondo de acciones?\\
+    La probabilidad sería $0$ Ya que el problema nos indica que seleccionaremos al azar un cliente que posee acciones en sólo un fondo
+\end{enumerate}
+
+\textbf{13.} Una firma consultora de computación presentó prpuestas en tres proyectos. Sea $A_i = \{Proyecto\ otorgado\ i \}$ con $i=1,2,3$ y suponga que $P(A_1)=0.22$, $P(A_2)=0.25$, $P(A_3)=0.28$, $P(A_1\cap A_2)=0.11$, $P(A_1\cap A_3)=0.05$, $P(A_2\cap A_3)=0.07$, $P(A_1\cap A_2\cap A_3)=0.01$. Exprese en palabras cada uno de los isguientes eventos y calcule la probabilidad de cada uno:
+\begin{enumerate}[a)]
+    \item $A_1\cup A_2$\\
+    Expresión: Que el proyecto se otrogue a $A_1$ o $A_2$\\
+     $P(A_1\cup A_2)= P(A_1)+P(A_2)-P(A_1\cap A_2)= 0.22 + 0.25 - 0.11 = 0.36$
+    \item $A_1^c\cap A_2^c$\\
+    Expresión: Que el proyecto no se entre a $A_1$ y no se entregue a $A_2$\\
+    $P(A_1^c\cap A_2^c)= P(A_1\cup A_2)^c = 1 - P(A_1\cup A_2) = 1 - 0.36 = 0.64$
+    \item $A_1\cup A_2\cup A_3$\\
+    Expresión: Que el proyecto se entregue a $A_1$ o $A_2$ o $A_3$\\
+    $P(A_1\cup A_2\cup A_3)= P(A_1\cup A_2) + P(A_3) - P(A_1\cap A_3) - P(A_2\cap A_3) + P(A_1\cap A_2\cap A_3)= 0.36 + 0.28 -0.05 - 0.07 + 0.01= 0.53$
+    \item $A_1^c\cap A_2^c\cap A_3$\\
+    Expresión: Que el proyecto solo se entrege a $A_3$\\
+    $P(A_1^c\cap A_2^c\cap A_3)= P(A_3)- P(A_1\cap A_3) - P(A_2\cap A_3) + P(A_1\cap A_2\cap A_3) = 0.28 + 0.05 + 0.07 + 0.01 = 0.41$
+    \item $A_1^c\cap A_2^c\cap A_3^c$\\
+    Expresión: Que el proyecto no se le entregue a a ninguno de los tres\\
+     $P(A_1^c\cap A_2^c\cap A_3^c) = P(A_1^c\cap A_2^c) - P(A_3) + P(A_1\cap A_3) + P(A_2\cap A_3) = 0.64 - 0.28 + 0.05 + 0.07 = 0.47$
+    \item $(A_1^c\cap A_2^c)\cup A_3$\\
+    Expresión: Que no le den el proyecto a A_1 ni a A_2 o que se lo den a A_3
+    $P((A_1^c\cap A_2^c)\cup A_3)= P(A_1^c\cap A_2^c)+P(A_3)- P(A_1^c\cap A_2^c\cap A_3)= 0.64+0.28-0.41=0.51$
+
+\end{enumerate}
+
+\textbf{15.} Considere el tipo de secadora de ropa (de gas o eléctrica) adquirida por cada uno de cinco clientes diferentes en cierta tienda.
+\begin{enumerate}[a)]
+    \item Si la probabilidad d que a lo sumo uno de éstos adquiera una secadora eléctrica es $0.428$, ¿cuál es la probabilidad de que por lo menos dos adquieran una secadora eléctrica?\\
+    $A:\ A\ lo\ sumo\ un\ cliente\ adquiere\ una\ secadora\ electrica$\\
+    $B:\ Al\ menos\ dos\ adquieren\ una\ secadora\ electrica$\\
+    $P(B)=P(A^c)=1-0.428=0.572$\\
+    $A\cup B = 0.1159$\\
+    	$P(A\cup B)^c= 1-0.1159 = 0.8841$
+    \item Si $P(los\ cinco\ compran\ una\ secadora\ de\ gas)=0.116$ y $P(los\ cinco\ compran\ una\ secadora\ electrica) = 0.005$, ¿cuál es la probabilidad de que por lo menos se adquiera una secadora de cada tipo?\\
+    $C:\ Al\ menos\ un\ cliente\ compra\ una\ secadora\ electrica$\\
+    $D:\ Al\ menos\ un\ cliente\ compra\ una\ secadora\ de\ gas$\\
+    $C^c:\ Los\ cinco\ clientes\ compran\ una\ secadora\ de\ gas$\\
+    $D^c:\ Los\ cinco\ clientes\ compran\ una\ secadora\ electrica$\\
+    $C^c\cup D^c:\ Los\ cinco\ clientes\ compran\ o\ una\ secadora\ electrica\ o\ una\ secadora\ de\ gas$\\
+    $C\cap D:\ Se\ compra\ al\ menos\ una\ secadora\ de\ cada\ tipo$\\
+    $P(C^c)=0.116$\\
+    $P(D^c)=0.005$\\
+    $P(C^c\cup D^c)=0.116+0.005=0.121$\\
+    $P(C\cap D)=P((C^c\cup D^c)^c)=1-0.121=0.879$\\
+
+\end{enumerate}
+\textbf{17.} Que $A$ denote el evento en que la siguiente slicitud de asesoría de un sonsultor de "Software" estadístico tenga que ver con el paquete SPSS y que $B$ denote el evento en que la siguiente solicitud de ayuda te¿iene que ver cn SAS. Suponga que $P(A)=0.30$ y $P(B)=0.5$
+\begin{enumerate}[a)]
+    \item ¿Por qué no es el caso en que $P(A)+P(B)=1$?\\
+    Por que los eventos $A$ y $B$ son eventos independientes y no complementarios
+    \item Calcule $P(A^c)$\\
+    $P(A^c)=1-P(A)=1-0.3=0.7$
+    \item Calcule $P(A\cup B)$\\
+    $P(A\cup B)=P(A)+P(B)-P(A)P(B)=0.3+0.5-(0.3*0.5)=0.3+0.5-0.15=0.65$
+    \item Calcule $P(A^c\cap B^c)$\\
+    $P(A^c\cap B^c)=(1-0.3)(1-0.5)=0.7*0.5=0.35$
+\end{enumerate}
+
+\textbf{19.} La inspección visual humana de uniones soldadas en un circuito impreso puede ser muy subjetiva. Una parte del problema se deriva de los numerosos tpos de defectos de soldadura (p. ej., almohadilla, visibilidad en escuadra, picaduras) e incluso el grado al cual una unión posee uno o más de estos defectos. Por consiguiente, incluso inspectores altamente entrenados pueden discrepar en cuanto a la disposición particular de una unión particular. En un lote de 10,000 uniones, el inspector $A$ encontró 724 defectuosas, el inspector $B$, 751 y 1159 de las uniones fueron consideradas defectuosas  por cuando menon uno de los inspectores. Suponga que se selecciona una de las  10,000 uniones al azar.
+\begin{enumerate}[a)]
+    \item ¿Cuál es la probabilidad de que la unión seleccionada no sea juzgada defectuosa por ninguno de los dos inspectores?
+    \item ¿Cuál es la probabilidad de que la unión sleccionada sea juzgada defectuosa por el inspector $B$ pero no por el inspector $A$?
+\end{enumerate}
+
+\textbf{21.} Una compañía de seguros ofrece cuatro diferentes niveles de deducible, nunguno, bajo, medio y alto, para sus tenedores de pólizas de propietario de casa y tres diferentes niveles, bajo, medio y alto, para sus tenedores de pólizas de automóviles. La tabla adjunta da proporciones de las varias categorías de tenedores de pólizas que tienen ambos tipos de seguro. Por ejeplo, la proporción de individuos con deducible bajo de casa como deducible bajo de carro es 0.06 ($6\%$ de todos los individuos)\\ \\
+\begin{tabular}{c}
+    propietario de casa  \\
+    \begin{tabular}{ccccc}
+        \hline
+        Auto & N & B & M & A\\
+        B & 0.04 & 0.06 & 0.05 & 0.03\\
+        M & 0.07 & 0.10 & 0.20 & 0.10\\
+        A & 0.02 & 0.03 & 0.15 & 0.15
+
+    \end{tabular}
+\end{tabular}
+Suponga que se elije al azar un individuo que posee ambos tipos de pólizas.
+
+\begin{enumerate}[a)]
+    \item ¿Cuál es la probabilidad de que el individuo tenga un deducible de auto medio y un deducible de casa alto? R= 0.10
+    \item ¿Cuál es la probabilidad de que el individuo tenga un deducible de casa bajo y un deducible de auto bajo?  R=0.06
+    \item ¿Cuál es la probabilidad de que el individuo se encuentre en la misma categoria de deducibles de casa y auto? R=0.41
+    \item Basado en su respuesta en el inciso c). ¿Cuál es la probabilidad de que las dos categorías sean diferentes?   R=0.59
+    \item ¿Cuál es la probabilidad de que el individuo tenga por lo menos un nivel deducible bajo?  R=0.31
+    \item Utilizando la respuesta del inciso e). ¿Cuál es la probabiliad de que nungún nivel deducible sea bajo?    R=0.69
+\end{enumerate}
+
+\textbf{23.} Las computadoras de seis miembros del cuerpo de profesores tienen que ser reemplazadar. Dos de ellos seleccionaron computadoras portátiles y los otros cuatro escogieron computadoras de escritorio. Suponga que sólo dos de las configuraciones pueden ser realizadas en un día particular y las dos computadoras que van a ser configuradas se seleccionan al azar de enre las seis (lo que implica 15 resultados igualmente probables; si las computadoras se enumeran 1,2 ..., 6 entonces un resultado se compone de las computadoras 1 y 2, otro de las computadoras 1 y 3, y así sucesivamente).\\
+$S= \{ 12, 13, 14, 15, 16, 23, 24, 25, 26, 34, 35, 36, 45, 46, 56 \}$
+\begin{enumerate}[a)]
+    \item ¿Cuál es la probabilidad de que las dos configuraciones seleccionadas sean compuadoras portátiles? R= 0.13
+    \item ¿Cuál es la probabilidad de que ambas configuraciones seleccionadas sean computadoras de escritorio? R= 0.4
+    \item ¿Cuál es la probailidad de que por lo menos una configuración seleccionada sea una computadora de escritorio? R= 0.933
+    \item ¿Cuál es la probabilidad de que por lo menos una computadora de cada tipo sea elejida para configurarla? R= 0.6
+\end{enumerate}
+
+\textbf{25.} Las tres opciones principales de un tipo de carro nuevo son una transmisión automática ($A$), un quemacocos ($B$) y un estéreo con reproductor de discos compactos ($C$). Si el $70\%$ de todos los compradores solicitan $A$, $80\%$ solician $B$, $75\%$ solicitan $C$, $85\%$ solicitan $A$ o $B$, $90\%$ solicitan $A$ o $C$, $95$ solicitan $B$ o $C$ y $98\%$ slicitan $A$ o $B$ o $C$, calcule las probabilidades de los isguientes eventos.
+\begin{enumerate}[a)]
+    \item El siguiente comprador solicitará por lo menos una de las tres opciones. R= .98
+    \item El siguiente comprador no seleccionará ninguna de las tres opciones. R= 0.02
+    \item El siguiente comprador solicitará sólo una transmisión automática y nunguna otra de las otras opciones
+    \item El siguiente comprador seleccionará exactamente una de estas tres opciones
+\end{enumerate}
+
+\textbf{27.} Un departamento académico con cinco miembros del cuerpo de profesores, Anderson, Box, Cox, Cramer y Fisher, debe seleccionar dos de ellos para que participen en un comité de revisión de personal. Como el trabajo requerirá mucho tiempo, ninguno está ansioso de participar, por lo que se decidió  que el representante será elegido introduciendo cinco trozos de papel en una caja, revolviéndolos y seleccionando dos.
+\begin{enumerate}[a)]
+    \item ¿Cuál es la probabilidad de que tanto Anderson como Box serán seleccionados?\\
+    Como los resultados son equiprobables entonces\\
+    $\frac{1}{5}+\frac{1}{5} = \frac{2}{5}$
+    \item ¿Cuál es la probabilidad de que por lo menos uno de los dos miembros cuyo nombre comienza co C sea seleccionado?\\
+    $S= \lbrace (A,B), (A,Cox), (A,Cramer), (A,F), (B,Cox), (B,Cramer), (B,F), (Cox,Cramer), (Cox,F), (Cramer.F) \rbrace$
+    Por lo tantos las personas con C serian 7 entonces:\\
+    $P(w)=\frac{7}{10}$
+    \item Si los cinco miembros del cuerpo de profesores han dado clase 3,6,7,10 y 14 años, respectivamente, en la universidad, ¿cuál es la probabilidad de que los dos representantes seleccionados acumulen por lo menos 15 años de experiecia académica en la universidad?
+    $S= \lbrace (A,B), (A,Cox), (A,Cramer), (A,F), (B,Cox), (B,Cramer), (B,F), (Cox,Cramer), (Cox,F), (Cramer.F) \rbrace$ \\
+    $A\longrightarrow 3$\\
+    $B\longrightarrow 6$\\
+    $Cox\longrightarrow 7$\\
+    $Cramer\longrightarrow 10$\\
+    $f\longrightarrow 14$\\
+
+	Entonces podemos ver que los que suman 15 son:\\
+	    $V= \lbrace (A,F), (B,Cramer), (B,F), (Cox,Cramer), (Cox,F), (Cramer.F) \rbrace$ \\
+	    $P(V)=\frac{6}{10}$
+\end{enumerate}
+
+\end{document}

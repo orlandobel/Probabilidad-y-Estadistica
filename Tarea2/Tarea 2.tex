@@ -1,0 +1,137 @@
+\documentclass[12pt, letterpaper, spanish]{article}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc} % Puede depender del sistema o editor
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{mathrsfs}
+\usepackage{pstricks-add}
+\usepackage{pgfkeys}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+\usepackage{tikz}
+\usetikzlibrary{fit,positioning}
+
+\begin{document}
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE Instituto Politécnico Nacional\\ Unidad Profesional Interdisiplinaria de Ingenierias campus Zacatecas\par}
+	\vspace{1cm}
+	{\scshape\Large Probabilidad Y Estadistica\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Tarea 2\par}
+	\vspace{2cm}
+	{\Large\itshape Gerardo Ayala Juárez\par}
+	{\Large\itshape Olando Odiseo Belmonte Flores\par}
+	{\Large\itshape Lucía Monserrat López Méndez\par}
+	{\Large\itshape Oscar Iván Palacions Ulloa\par}
+	\vfill
+	Maestro:\par
+	\textsc{
+	Rosendo Vasquez Bañuelos}
+	\vfill
+% Bottom of the page
+	{\large \today \par}
+\end{titlepage}
+
+30. Un amigo mío va a ofreccer una fiesta. Sus existencias actuales de vino incluyen 8 botellas de zinfandel, 10 de merlot y 12 de cabernt ( él sólo beb vino tinto), todos de difernetes fábricas vinícolas
+\begin{enumerate}[a)]
+    \item Si desea servir 3 botellas zindanfel y el orden de servicio es importante, ¿cuántas formas existen de hacerlo?\\
+    $_8C_3=53$
+    \item Si 6 botellas de vino tienen que ser seleccionadas al azar de las 30 para servirse, ¿cuántas formas existen de hacerlo?\\
+    $_{30}P_6=427,518,00$
+    \item Si se seleccionan al azar 6 botellas , ¿cuántas formas existen deobtener dos botellas de cada bariedad\\
+    $(_8P_2)(_{10}P_2)(_{12}P_2)=(52)(90)(132)=617,760$
+    \item Si se seleccionan 6 botellas al azar, ¿cuál de que el resutado sean dos botellas de cada variedad?\\
+    $\frac{(_8C_2)(_{10}C_2)(_{12}C_2)}{_{30}C_6}=\frac{(28)(45)(66)}{593,775}=\frac{83,160}{593,775}=0.14$
+    \item Si se eligen 6 botellas al azar, ¿cuál es la probabilidad de que todas ellas sean de la misma variedad?\\
+    $\frac{_8C_6+_{10}C_6+_{12}C_6}{_{30}C_6}=\frac{28+210+924}{593,775}=\frac{1,162}{593,775}=0.00195$\\
+\end{enumerate}
+
+	32. Una tienda de quipos de sonido está ofreciendo un precio especial en un juego completo de componentes (receptor, reproductor de discos compactos, altavoces, casetera). Al comprador e le ofrece una opción de fabricante por cada componente.\\ \\
+	Receptor: Kenwood, Okyo, Pioneer, Sony, Sherwood\\
+	Reproductor de discos compactos: Onkyo, Pioneer, Sony, Techincs\\
+	Altavoces: Boston, Infinity, Polk\\
+	Casetera: Onkyo, Sony, Teac, Techincs\\ \\
+	Un tablero de distribución en la tienda permite al cliente conectar cualquier selección de componentes (compuesta de uno de cada tipo). Use las reglas de producto para responder las siguientes preguntas:\\
+	\begin{enumerate}[a)]
+		\item ¿De cuántas maneras ouede ser seleccionado un componente de cada tipo?\\
+		$5*4*3*4=240$
+		\item ¿De cuántas maneras pueden ser seleccionadoslos componentes si tanto el receptor como el reproductor de discos compactos tienen que ser de sony?\\
+		$1*1*3*4=12$
+		\item ¿De cuánas maneras pueden ser seleccionados los componentes si ninguno tiene que ser Sony?\\
+		$4*3*3*3=108$
+		\item ¿De cuántas maneras se puede hacer una selección si por lo menos se sitene que incluir un componente sony\\
+		$(1*4*3*4)+(5*1*3*4)+(5*4*3*1)=168$
+		\item Si alguie muebe los interruptores en el tablero de disttribución completamente al azar, ¿cuál es la probabilidad de que el sistemas seleccionado contenga solamente un componente sony?\\
+		$\frac{168}{240}=0.7$\\
+	\end{enumerate}
+
+	34. Poco tiempo después de de ser puestos en servicio, algunos autobuses fabricados por una cierta compañia presentaron grietas debajo del chasis principal. Suponga que una cuidad particular utiliza 25 de estos autobuses y que en 8 de ellos aparecieron grietas.\\
+	\begin{enumerate}[a)]
+		\item ¿Cuántas maneras existen de seleccionar una muestra de 5 autobuses entre los 25 para una inspección completa?\\
+		$\frac{25!}{5!20!}=\frac{(25*24*23*22*21)}{5!}=\frac{6,375,600}{120=53130}$
+		\item ¿De cuántas maneras puede una muestra de 5 autobuses contener exactamente 4 con grietas visibles? \\
+		$\frac{8!}{4!4!}=(\frac{8*7*6*5}{4!}=\frac{1680}{4!}=70$
+		\item Si se elige una muestra de 5 autobuses al azar ¿Cuál es la probabilidad de que exactamente 4 con grietas visibles?\\
+		$\frac{1190}{53130}=0.02239789$
+		\\Donde: 1190= Posibilidad de obtener 4 autobuses con grietas visibles si eliges 5 y  53130=Total de posibilidades de autobuses eligiendo 5 de 25
+
+		\item Si los autobuses se seleccionan como en el inciso c), ¿Cuál es la probabilidad de por lo menos 4 de los seleccionados tengan grietas visibles?\\
+		$\frac{8!}{5!3!}=\frac{8*7*6}{3!}=8*7=56$\\
+		Pero se le suman 1990 ya que son los autobuses con grietas visibles\\
+		$56+1190=1246$\\
+		Y se le divide el total (53130) ya que se pide la probabilidad\\
+		$\frac{1246}{53130}=0.02351914$
+	\end{enumerate}
+	36. Un departamento académico compuesto de cinco profesores limitó su opción para jefe de departamento a el candidato A o el candidato B. Cada miembro votó entonces con un papelito por uno de los candidatos. Suponga que en realidad existen tres votos para A y dos para B, Si los papelitos se cuentan al azar ¿Cuál es la probabilidad de que A permanesca delante de B durante todo el conteo de votos? \\
+	$S= \lbrace AAABB, AABAB, AABBA, ABAAB, ABABA, ABBAA, BAAAB, BAABA, BABAA, BBAAA\rbrace$\\
+Donde A permanece Adelante de b todo el tiempo(E);\\
+$E=\lbrace AAABB,AABAB,ABAAB \rbrace$\\
+Entonces la probabilidad es de: $\frac{3}{10}$\\
+
+	38. Una caja e un alacén contiene cuatro focos de 40w, cinco de 60w y seis de 75w. Suponga que se eligen al azar tres focos.\\
+	\begin{enumerate}[a)]
+		\item ¿Cuál es la probabilidad de que exactamente dos de los focos seleccionados sean de 75w?\\
+		$\displaystyle\frac{\displaystyle{6 \choose 2} \displaystyle{9 \choose 1}}{\displaystyle{15 \choose 3}}=0.2967$
+		\item ¿Cuál es la probabilidad de que los tres focos seleccionados sean de los mismos watts?\\
+		$\displaystyle\frac{\displaystyle{6 \choose 3} + \displaystyle{5 \choose 3} + \displaystyle{4 \choose 3}}{\displaystyle{15 \choose 3}}=0.074$
+		\item ¿Cuál es la probabilidad de que se seleccione un foco de cada tipo?\\
+		$\displaystyle\frac{\displaystyle{6 \choose 1}  \displaystyle{5 \choose 1}  \displaystyle{4 \choose 1}}{\displaystyle{15 \choose 3}}=0.263$
+		\item Suponga ahora que los focos tienen que ser seleccionados uno por uno hasta encontrar uno de 75w. ¿Cuál es la probabilidad de que sea necesario examinar por lo menos seis focos?\\
+	\end{enumerate}
+
+	40. Tres moléculas de tipo $A$, tres de tipo $B$, tres de tipo $C$ y tres del tio¿po $D$ tienen que ser unidas para formar una cadena molecular. Una adena molecular como es $ABCDABCDABCD$ y otra es $BCDDAAABDBCC$.
+	\begin{enumerate}[a)]
+		\item ¿Cuántas moléculas en cadena hay? \\
+		$\displaystyle\frac{12!}{3!3!3!3!}=369600$ total de permutaciones
+		\item Suponga que se elige al azar una molécula del tipo descrito. ¿Cuál es la probabilidad de que las tres moléculas de cada tipo terminen junto a la otra (como en BBBAAADDDCCC)?\\
+		$\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_$ = 12!\\
+				$ \_\_\_$ $ \_\_\_$  $ \_\_\_$  $ \_\_\_$  = 4!\\
+				$\displaystyle\frac{4!}{396600} = 6.4x10^-5$\\
+	\end{enumerate}
+
+	42. Tres parejas de casados compraron boletos para el teatro y están sentados en una fila compuesta de sólo seis asientos. Si ocupan sus asientos de un mkodo completamete al azar
+	\begin{enumerate}[a)]
+	\item ¿Cuál es la probabilidad de que Jim y Paula se sienten en los dos asientos extremos del lado Izquierdo?\\
+	$P(A)= 6! = 720$
+	Multiplicando las permunaciones excluyendo a la pareja nos quedaria $4!=24$ multiplicando por la permutacion de la pareja $2!=2 \therefore$ \\
+	El numero de veces que se pueden acomodar serian 48 entonces la probabilidad seria:\\
+	$\displaystyle\frac{48}{720}= \displaystyle\frac{1}{15}=0.066$
+	\item ¿Cuál es la probabilidadde que Jim y Paula terminen sentandose uno junto al otro?
+	Esta vez los lugares que tomaremos en cuenta para mover seran 5 y despues los de la pareja:\\
+	$(5!)*(2!)= 240$ entonces decimos que la probabilidad es $\frac{240}{720}=\frac{1}{3}$
+	\item ¿Cuál es la probabilidad de que por lo menos dos de las esposas terminen sentandose al lado de su esposo?\\
+	$(3!)(2!)(2!)=24$\\
+	$(4!)(2!)(2!)=96$\\
+	$24+96=120$ Entonces la probabilidas es de: $\frac{120}{720}=\frac{1}{6}$
+
+\end{enumerate}
+
+\end{document}
