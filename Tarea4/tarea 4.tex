@@ -1,0 +1,124 @@
+\documentclass[12pt, letterpaper, spanish]{article}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc} % Puede depender del sistema o editor
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{mathrsfs}
+\usepackage{pstricks-add}
+\usepackage{pgfkeys}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+\usepackage{tikz}
+\usetikzlibrary{fit,positioning}
+
+\begin{document}
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE Instituto Politécnico Nacional\\ Unidad Profesional Interdisiplinaria de Ingenierias campus Zacatecas\par}
+	\vspace{1cm}
+	{\scshape\Large Probabilidad Y Estadistica\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Tarea 4\par}
+	\vspace{2cm}
+	{\Large\itshape Gerardo Ayala Juárez\par}
+	{\Large\itshape Olando Odiseo Belmonte Flores\par}
+	{\Large\itshape Lucía Monserrat López Méndez\par}
+	{\Large\itshape Oscar Iván Palacios Ulloa\par}
+	\vfill
+	Maestro:\par
+	\textsc{
+	Rosendo Vasquez Bañuelos}
+	\vfill
+% Bottom of the page
+	{\large \today \par}
+\end{titlepage}
+
+\textbf{46.} Suponga que un individuo es seleccionado al azar de la población de todos los adultos varones que viven en Estados Unidos. Sea $A$ el evento en que el individuo seleccionado tiene una estatura de más de 6 pies y sea $B$ el evento en que el individuo seleccionado es un jugador profesional de básquetbol. ¿Cuál piensa que es más grande, $P(A | B)$ o $P(B | A)$? ¿Por qué? \\
+R= $P(B|A)$, por que el básquetbol es un deporte cullos ejercicios de entrenamiento tienden a hacer que los practicantes se estiren\\\\
+
+\textbf{48.} Re considere la situación del sistema defectuoso descrito en el ejercicio 26 (Tarea 3).\\
+
+\begin{enumerate}[a)]
+    \item Dado que el sistea tiene un defecto de tipo 1, ¿cuál es la probabilidad de que tenga un defecto de tipo 2?\\
+    $P(A_2|A_1)=\displaystyle\frac{P(A_1\cap A_2)}{P(A_1)}=\displaystyle\frac{P(A_1)+P(A_2)-P(A_1\cup A_2)}{P(A_1)}=\displaystyle\frac{0.12+0.07-0.13}{0.12}=\displaystyle\frac{0.06}{0.12}=0.5$
+    \item Dado que el sistema tiene un defecto de tipo 1, ¿cuál es la probabilidad de que tenga los tres tipos de defectos?\\
+    $P(A_2\cap A_2|A_1)=\displaystyle\frac{P(A_1\cap A_2\cap A_3)}{P(A_1)}=\displaystyle\frac{0.01}{0.12}=0.083$
+    \item Dado que el sistema tiene por lo menos un tipo de defecto, ¿Cual es la probabilidad de que tenga exactamente un tipo de defecto?\\
+    $P(A_1\cap A_2)=0.12+0.07-0.13=0.06$\\
+    $P(A_1\cap A_3)=0.12+0.05-0.14=0.03$\\
+    $P(A_2\cap A_3)=0.05+0.07-0.10=0.02$\\
+    $P(A_1\cup A_2\cup A_3)=0.12+0.07+0.05-0.06 -0.03-0.02+0.01=0.14$\\\\
+    $P(A_1^c)=1-0.12=0.88$\\
+    $P(A_2^c)=1-.07=0.93$\\
+    $P(A_3^c)=1-0.05=0.95$\\
+
+    $P(A_1^c\cap A_2^c)=P((A_1\cup A_2)^c)=1-0.13=0.87$\\
+    $P(A_1^c\cap A_3^c)=P((A_1\cup A_3)^c)=1-0.14=0.86$\\
+    $P(A_2^c\cap A_3^c)=P((A_2\cup A_3)^c)=1-0.1=0.9$\\
+    $P((A_1^c\cap A_2^c)\cup (A_1^c\cap A_3^c)\cup (A_2^c\cap A_3^c))=P(A_1^c\cap A_2^c)+P(A_1^c\cap A_3^c)+P(A_2^c\cap A_3^c)+2P((A_1\cup A_2\cup A_3)^c)=0.87+0.86+0.9+2(0.86)=0.91$\\
+    $P((A_1\cup A_2\cup A_3)\cap ((A_1^c\cap A_2^c)\cup (A_1^c\cap A_3^c)\cup (A_2^c\cap A_3^c)))=P((A_1^c\cap A_2^c)\cup (A_1^c\cap A_3^c)\cup (A_2^c\cap A_3^c))-P((A_1\cup A_2\cup A_3)^c)=0.91-0.86=0.05$\\
+
+    $P((A_1\cup A_2\cup A_3)\cap ((A_1^c\cap A_2^c)\cup (A_1^c\cap A_3^c)\cup (A_2^c\cap A_3^c))|A_1\cup A_2\cup A_3)=\displaystyle\frac{(A_1\cup A_2\cup A_3)\cap ((A_1^c\cap A_2^c)\cup (A_1^c\cap A_3^c)\cup (A_2^c\cap A_3^c))}{A_1\cup A_2\cup A_3}=\displaystyle\frac{0.05}{0.14}=0.35$
+    \item Dado que el sistema tiene los primeros dos tipos de defectos, ¿cuál es la probabilidad de que no tenga el tercer tipo de defecto?\\
+    $P(A_3^c|A_1\cap A_2)=\displaystyle\frac{P(A_1\cap A_2\cap A_3^c)}{P(A_1\cap A_2)}=\displaystyle\frac{P(A_1\cap A_2)-P(A_1\cap A_2\cap A_3)}{P(A_1\cap A_2)}=\\ \displaystyle\frac{0.06-0.01}{0.06}=\displaystyle\frac{0.05}{0.06}=0.83$
+\end{enumerate}\\\\
+
+\textbf{50.} Una tienda de departamentos vende camisa sport en tres tallas (chica, mediana y grande), tres diseños (a cuadros, estampadas y a rayas) y dos largos de manga (larga y corta). Las tablas adjuntas dan las proporciones de camisas vendidas en las combinaciones de categoría.\\
+
+\textbf{Manga corta}\\
+\begin{tabular}{c}
+    \hline
+    Diseño \\
+    \begin{tabular}{cccc}
+        \hline
+        Talla & Cuadros & Estampada & Rayas\\ \hline
+        CH & 0.04 & 0.02 & 0.05\\
+        M & 0.08 & 0.07 & 0.12\\
+        G & 0.03 & 0.07 & 0.08
+    \end{tabular}
+\end{tabular}\\
+
+\textbf{Manga Larga}\\
+\begin{tabular}{c}
+    \hline
+    Diseño \\
+    \begin{tabular}{cccc}
+        \hline
+        Talla & Cuadros & Estampada & Rayas\\ \hline
+        CH & 0.03 & 0.02 & 0.03\\
+        M & 0.10 & 0.05 & 0.07\\
+        G & 0.04 & 0.02 & 0.08
+    \end{tabular}
+\end{tabular}
+
+\begin{enumerate}[a)]
+    \item ¿Cuál es la probabilidad de que la siguiente camisa vendida sea una camisa mediana estampada de manga larga?\\
+    R=0.05
+    \item ¿Cuál es la probabilidad de que la siguiente camisa vendida sea una camisa estampada mediana?\\
+    R=0.07+0.05=0.12
+    \item ¿Cuál es la probabiliad de que la siguiente camisa vendida sea de manga corta?¿De ,anga larga?\\
+    $A:\ se\ vende\ una\ camisa\ de\ manga\ corta$\\
+    $A^c:\ se\ vende\ una\ camisa\ de\ manga\ larga$\\
+    $P(A)=0.04+0.08+0.03+0.02+0.07+0.07+0.05+0.12+0.08=0.56$\\
+    $P(A^c)=1-P(A)=1-.56=0.44$
+    \item ¿Cuál es la probabilidad de que la talla de la siguiente camisa vendida sea mediana?¿Que la siguiente camisa vendida sea estampada?\\
+    $B:\ Se\ vebde\ una\ camisa\ de\ talla\ meiana$\\
+    $C:\ Se\ vende\ una\ camisa\ estampada$\\
+    $P(B)=0.08+0.07+0.12+0.1+0.05+0.07=0.49$\\
+    $P(C)=0.02+0.07+0.07+0.02+0.05+0.02=0.25$
+    \item Dado que la camisa que se acaba de vender era de manga corta a cuadros, ¿cuál es la probabilidad de que fuera mediana\\
+    $\displaystyle\frac{0.08}{0.04+0.08+0.03}=\displaystyle\frac{0.08}{0.15}=0.53$
+    \item Dado que la camisa que se acaba de vender era mediana a cuadros, ¿cuál es la probabilidad de que fuera manga corta?¿De manga larga?\\
+    $D:\ Se\ vende\ una\ camisa\ mediana\ a\ cuadros$\\
+    $P(A|D)=\displaystyle\frac{P(A\cap D)}{P(D)}=\displaystyle\frac{0.08}{0.08+0.1}=\displaystyle\frac{0.08}{0.18}=0.44$\\
+    $P(A^c|D)=\displaystyle\frac{P(A^c\cap D)}{P(D)}=\displaystyle\frac{0.1}{0.08+0.1}=\displaystyle\frac{0.1}{0.18}=0.55$
+\end{enumerate}
+
+\end{document}
