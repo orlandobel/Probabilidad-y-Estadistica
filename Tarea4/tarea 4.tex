@@ -68,8 +68,8 @@ R= $P(B|A)$, por que el básquetbol es un deporte cullos ejercicios de entrenami
     $P((A_1\cup A_2\cup A_3)\cap ((A_1^c\cap A_2^c)\cup (A_1^c\cap A_3^c)\cup (A_2^c\cap A_3^c))|A_1\cup A_2\cup A_3)=\displaystyle\frac{(A_1\cup A_2\cup A_3)\cap ((A_1^c\cap A_2^c)\cup (A_1^c\cap A_3^c)\cup (A_2^c\cap A_3^c))}{A_1\cup A_2\cup A_3}=\displaystyle\frac{0.05}{0.14}=0.35$
     \item Dado que el sistema tiene los primeros dos tipos de defectos, ¿cuál es la probabilidad de que no tenga el tercer tipo de defecto?\\
     $P(A_3^c|A_1\cap A_2)=\displaystyle\frac{P(A_1\cap A_2\cap A_3^c)}{P(A_1\cap A_2)}=\displaystyle\frac{P(A_1\cap A_2)-P(A_1\cap A_2\cap A_3)}{P(A_1\cap A_2)}=\\ \displaystyle\frac{0.06-0.01}{0.06}=\displaystyle\frac{0.05}{0.06}=0.83$
-\end{enumerate}\\\\
-
+\end{enumerate}
+\vskip 0.1 cm
 \textbf{50.} Una tienda de departamentos vende camisa sport en tres tallas (chica, mediana y grande), tres diseños (a cuadros, estampadas y a rayas) y dos largos de manga (larga y corta). Las tablas adjuntas dan las proporciones de camisas vendidas en las combinaciones de categoría.\\
 
 \textbf{Manga corta}\\
@@ -121,4 +121,46 @@ R= $P(B|A)$, por que el básquetbol es un deporte cullos ejercicios de entrenami
     $P(A^c|D)=\displaystyle\frac{P(A^c\cap D)}{P(D)}=\displaystyle\frac{0.1}{0.08+0.1}=\displaystyle\frac{0.1}{0.18}=0.55$
 \end{enumerate}
 
+
+
+%%%%Aqui empieza 64 por Gerardo Ayala Juarez%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{66.} \textit{Incidencia de una enfermedad rara}. Sólo 1 en 25 adultos padece una enfermedad rara para la cual se ha creado una prueba de diagnóstico. La prueba es tal que cuando un individuo que en realidad tiene la enfermedad, un resultado positivo se presentará en 99\%  de las veces mientras que en individuos sin enfermedad el examen será positivo sólo en un 2\% de las veces. %% Problema adaptado del ejemplo 2.30 donde se cambio 1 de 1000 a 1.25
+\begin{itemize}
+    \item[A$_1$]: Tiene la enfermedad - P: 0.04
+    \item[A$_2$]: Tiene la enfermedad - P: 0.96
+    \item[B]: El resultado es positivo - P: X 
+    \begin{itemize}
+        \item P(B|A$_1$) = 0.99
+        \item P(B|A$_2$) = 0.02
+    \end{itemize} 
+    \item[a)] Dado que el resultado es positivo,¿Cuál es entonces la probabilidad de un resultado de prueba positivo?
+    \item[R:] \vskip .05 cm
+    P(A$_1 \cap $ B) = P($A_1$) $\cdot$ P(B|$A_1$) = $\displaystyle\frac{P(A_1)\cdot P(A_1\cap B)}{P(A_1)}$ =  0.04 $\cdot$ 0.99 = 0.0396
+    \vskip .05 cm
+    P(A$_2 \cap $ B) = P($A_2$) $\cdot$ P(B|$A_2$) = $\displaystyle\frac{P(A_2)\cdot P(A_2\cap B)}{P(A_2)}$ =  0.96 $\cdot$ 0.02 = 0.0192
+    \vskip .05 cm
+    P(B) = $P(A_1 \cap B) + P(A_2 \cap B) $ = 0.0588 = X
+    \item[b)] Dado que el resultado de prueba es positivo, ¿cuál es la probabilidad de que el individuo tenga la enfermedad?
+    \item[R:] P($A_1$|B) = $\displaystyle\frac{P(A_1\cap B)}{P(B)}$ = $\displaystyle\frac{0.0396}{0.0588}$ = 0.673
+    \item[c)] Dado un resultado de prueba negativo, ¿cuál es la probabilidad de que el individuo no tenga la enfermedad?
+    \item[R:] P($A_2$|B) = $\displaystyle\frac{P(A_2\cap B)}{P(B)}$ = $\displaystyle\frac{0.0192}{0.0588}$ = 0.326 
+\end{itemize}
+\textbf{66.} Considere la siguiente información sobre vacacionistas (basada en parte en una encuesta reciente de Travelocity): 40\% revisan su correo electrónico de trabajo, 30\% utilizan un teléfono celular para permanecer en contacto con su trabajo, 25\% trajeron una computadora portátil consigo, 23\% revisan su correo electrónico de trabajo y utilizan un teléfono celular para permanecer en contacto y 51\% ni revisan su correo electrónico de trabajo ni utilizan un teléfono celular para permanecer en contacto ni trajeron consigo una computadora portátil. Además, 88 de cada 100 que traen una computadora portátil también revisan su correo electrónico de trabajo y 70 de cada 100 que utilizan un teléfono celular para permanecer en contacto también traen una computadora portátil.
+
+\begin{itemize}
+    \item[A:] Revisan correo electrónico - P: 0.40
+    \item[B:] Utilizan tel\'efono - P: 0.30
+    \item[C:] Computadora portatil - P: 0.25
+    \item[A$\cap$B] P: 0.23
+    \item[P(A|C)] P: 88/100
+    \item[P(C|B)] P: 70/100
+    \item[P(A$\cap$C)] = P($C$) $\cdot$ P(A|C) = $\displaystyle\frac{P(C)\cdot P(A \cap C)}{P(C)}$ =  0.11 $\cdot$ .88 = 0.22
+    \item[P(C$\cap$B)] = P($B$) $\cdot$ P(C|B) = $\displaystyle\frac{P(B)\cdot P(C \cap B)}{P(B)}$ =  0.30 $\cdot$ .70 = 0.21
+    \item[a)] ¿Cuál es la probabilidad de que un vacacionista seleccionado al azar que revisa su correo electrónico de trabajo también utilice un teléfono celular para permanecer en contacto?
+    \item[R:]  P(B|A) = $\displaystyle\frac{P(A\cap B)}{P(A)}$ = $\displaystyle\frac{0.23}{0.40}$ = 0.575
+    \item[b)] ¿Cuál es la probabilidad de que alguien que trae una computadora portátil también utilice un teléfono celular para permanecer en contacto? 
+    \item[R:] P(B|C) = $\displaystyle\frac{P(B\cap C)}{P(C)}$ = $\displaystyle\frac{.21}{.25}$ = 0.84 
+    \item[c)] Si el vacacionista seleccionado al azar revisó su correo electrónico de trabajo y trajo una computadora portátil, ¿cuál es la probabilidad de que él o ella utilice un teléfono celular para permanecer en contacto?
+\end{itemize}
+\textbf{68.} Una amiga que vive en Los Ángeles hace viajes frecuentes de consultoría a Washington, D.C.; 50\% del tiempo viaja en la línea aérea \#1, 30\% del tiempo en la aerolínea \#2 y el 20\% restante en la aerolínea \#3. Los vuelos de la aerolínea \#1 llegan demorados a D.C. 30\% del tiempo y 10\% del tiempo llegan demorados a L.A. Para la aerolínea \#2, estos porcentajes son 25\% y 20\%, en tanto que para la aerolínea \#3 los porcentajes son 40\% y 25\%. Si se sabe que en un viaje particular ella llegó demorada a exactamente uno de los destinos, ¿cuáles son las probabilidades posteriores de haber volado en las aerolíneas \#1, \#2 y \#3? Suponga que la probabilidad de arribar con demora a L.A. no se ve afectada por lo que suceda en el vuelo a D.C. [Sugerencia: Desde la punta de cada rama de primera generación en un diagrama de árbol, trace tres ramas de segunda generación identificadas, respectivamente, como, 0 demorado, 1 demorado y 2 demorado.]
 \end{document}
