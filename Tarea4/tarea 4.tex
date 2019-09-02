@@ -163,4 +163,36 @@ R= $P(B|A)$, por que el básquetbol es un deporte cullos ejercicios de entrenami
     \item[c)] Si el vacacionista seleccionado al azar revisó su correo electrónico de trabajo y trajo una computadora portátil, ¿cuál es la probabilidad de que él o ella utilice un teléfono celular para permanecer en contacto?
 \end{itemize}
 \textbf{68.} Una amiga que vive en Los Ángeles hace viajes frecuentes de consultoría a Washington, D.C.; 50\% del tiempo viaja en la línea aérea \#1, 30\% del tiempo en la aerolínea \#2 y el 20\% restante en la aerolínea \#3. Los vuelos de la aerolínea \#1 llegan demorados a D.C. 30\% del tiempo y 10\% del tiempo llegan demorados a L.A. Para la aerolínea \#2, estos porcentajes son 25\% y 20\%, en tanto que para la aerolínea \#3 los porcentajes son 40\% y 25\%. Si se sabe que en un viaje particular ella llegó demorada a exactamente uno de los destinos, ¿cuáles son las probabilidades posteriores de haber volado en las aerolíneas \#1, \#2 y \#3? Suponga que la probabilidad de arribar con demora a L.A. no se ve afectada por lo que suceda en el vuelo a D.C. [Sugerencia: Desde la punta de cada rama de primera generación en un diagrama de árbol, trace tres ramas de segunda generación identificadas, respectivamente, como, 0 demorado, 1 demorado y 2 demorado.]
+\begin{itemize}
+    \item [$A_1$] : Viaja Aerol\'inea \# 1 - P: 50\%
+    \item [$A_2$] : Viaja Aerol\'inea \# 2 - P: 30\%
+    \item [$A_3$] : Viaja Aerol\'inea \# 3 - P: 20\%
+    \item [$B$] : Se retrasa el vuelo
+    \item [$B_{1.1}$] : Se retrasa el vuelo D.C. Aerolina \#1 - P : 30\%
+    \item [$B_{1.2}$] : Se retrasa el vuelo L.A. Aerolina \#1 - P : 10\%
+    \item [$B_{2.1}$] : Se retrasa el vuelo D.C. Aerolina \#2 - P : 25\%
+    \item [$B_{2.2}$] : Se retrasa el vuelo L.A. Aerolina \#2 - P : 20\%
+    \item [$B_{3.1}$] : Se retrasa el vuelo D.C. Aerolina \#3 - P : 40\%
+    \item [$B_{3.2}$] : Se retrasa el vuelo L.A. Aerolina \#3 - P : 25\%
+    \item [P(B)] : $P(A_1 \cap (B_{1.1} \cap B_{1.2}^{c}))$ + $P(A_1 \cap (B_{1.2} \cap B_{1.1}^{c}))$ + $P(A_1 \cap (B_{1.1} \cap B_{1.2}))$ + $P(A_2 \cap (B_{2.1} \cap B_{2.2}^{c}))$ + $P(A_2 \cap (B_{2.2} \cap B_{2.1}^{c}))$ + $P(A_2 \cap (B_{2.1} \cap B_{2.2}))$ + $P(A_3 \cap (B_{3.1} \cap B_{3.2}^{c}))$ + $P(A_3 \cap (B_{3.2} \cap B_{3.1}^{c}))$ + $P(A_3 \cap (B_{3.1} \cap B_{3.2}))$
+    \item Recordando: \textit{Suponga que la probabilidad de arribar con demora a L.A. no se ve afectada por lo que suceda en el vuelo a D.C.} Podemos suponer que son eventos independientes por lo tanto llegamos a lo siguiente.
+    \item [P(B)] : (0.50)(0.30)(0.90) + (0.50)(0.10)(0.70) + (0.50)(0.30)(0.10) + (0.30)(0.25)(0.80) + (0.30)(0.20)(0.75) + (0.30)(0.20)(0.25) + (0.20)(0.40)(0.75) + (0.20)(0.25)(0.60) + (0.20)(0.25)(0.40)
+    \item [P(B)] : Se retrasa el vuelo - P: .415
+    \item [a)]  Si se sabe que en un viaje particular ella llegó demorada a exactamente uno de los destinos, ¿cuáles son las probabilidades posteriores de haber volado en las aerolíneas \#1, \#2 y \#3?
+    \begin{itemize}
+        \item $\displaystyle\frac{P(A_1 \cap (B_{1.1} \cap B_{1.2}^{c}))}{P(B)}$ = $\displaystyle\frac{0.135}{0.415}$ = 0.3253
+        \item $\displaystyle\frac{P(A_1 \cap (B_{1.2} \cap B_{1.1}^{c}))}{P(B)}$ = $\displaystyle\frac{0.035}{0.415}$ = 0.0843
+    \end{itemize}
+    \item[Probabilidad] de haber volado en la aerol\'inea \#1 0.3253 + 0.0843 = 0.4096
+    \begin{itemize}
+        \item $\displaystyle\frac{P(A_2 \cap (B_{2.1} \cap B_{2.2}^{c}))}{P(B)}$ = $\displaystyle\frac{0.060}{0.415}$ = 0.1445
+        \item $\displaystyle\frac{P(A_2 \cap (B_{2.2} \cap B_{2.1}^{c}))}{P(B)}$ = $\displaystyle\frac{0.045}{0.415}$ = 0.1084
+    \end{itemize}
+    \item[Probabilidad] de haber volado en la aerol\'inea \#2 0.1445 + 0.1084 = 0.2529
+    \begin{itemize}
+        \item $\displaystyle\frac{P(A_3 \cap (B_{3.1} \cap B_{3.2}^{c}))}{P(B)}$ = $\displaystyle\frac{0.060}{0.415}$ = 0.1445
+        \item $\displaystyle\frac{P(A_3 \cap (B_{3.2} \cap B_{3.1}^{c}))}{P(B)}$ = $\displaystyle\frac{0.030}{0.415}$ = 0.0722
+    \end{itemize}
+    \item[Probabilidad] de haber volado en la aerol\'inea \#3 0.1145 + 0.0722 = 0.2167
+\end{itemize}
 \end{document}

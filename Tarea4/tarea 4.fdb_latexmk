@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1567313357 "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.tex" "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.pdf" "tarea 4" 1567313700
-  "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.aux" 1567313358 112 e1f9d66d8ef9afcbeb5c456c0a391ffb ""
-  "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.tex" 1567313699 11653 35a3128f50ec2122751e68af6ad4f208 ""
+["pdflatex"] 1567400315 "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.tex" "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.pdf" "tarea 4" 1567400337
+  "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.aux" 1567400318 112 e1f9d66d8ef9afcbeb5c456c0a391ffb ""
+  "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.tex" 1567400336 14568 7f247152d9e4b2df0880fa84316e9513 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1557801557 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1557801557 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1557802724 3332 103109f5612ad95229751940c61aada0 ""
@@ -216,11 +216,11 @@
   "c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557806279 3341152 86ef10755f022706983b8ceb5223965f ""
   "c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557806494 4255898 e48f82f12faa74c8b2323e7ce10b5fe7 ""
   "c:/texlive/2019/texmf.cnf" 1557806140 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "tarea 4.aux" 1567313358 112 e1f9d66d8ef9afcbeb5c456c0a391ffb "pdflatex"
-  "tarea 4.tex" 1567313699 11653 35a3128f50ec2122751e68af6ad4f208 ""
+  "tarea 4.aux" 1567400318 112 e1f9d66d8ef9afcbeb5c456c0a391ffb "pdflatex"
+  "tarea 4.tex" 1567400336 14568 7f247152d9e4b2df0880fa84316e9513 ""
   (generated)
-  "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.log"
-  "tarea 4.log"
-  "tarea 4.aux"
   "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.pdf"
+  "tarea 4.log"
   "tarea 4.pdf"
+  "c:/Users/futbo/Documents/estaditica_tarea/Tarea4/tarea 4.log"
+  "tarea 4.aux"
