@@ -70,7 +70,7 @@ options:
   intermediatePostScript: false
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2019-09-12T19:48:47.481Z
+    timeStamp: 2019-09-13T00:26:16.556Z
     jobNames: []
     value:
       severity: info
@@ -128,20 +128,20 @@ files:
       intermediatePostScript: false
     type: ParsedYAML
   Tarea 1.tex:
-    timeStamp: 2019-09-12T19:49:11.749Z
+    timeStamp: 2019-09-13T00:40:10.544Z
     jobNames: []
-    hash: RuNwvEfuu31VBmDP+o5IwOEaoaiRCIsesiLNSRezeBQ=
+    hash: qJO+wGHDoQRUz4nyC78yeKzRTBe0qCj2r8zRFknMpB4=
     type: LaTeX
     subType: article
   /home/Odi/.config/dicy/config.yaml:
-    timeStamp: 2019-09-12T19:48:47.534Z
+    timeStamp: 2019-09-13T00:26:16.604Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
   Tarea 1.fls-ParsedFileListing:
-    timeStamp: 2019-09-12T19:48:51.738Z
+    timeStamp: 2019-09-13T00:39:45.810Z
     jobNames: []
     value:
       messages: []
@@ -150,6 +150,7 @@ files:
         - /usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
         - /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
         - /usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
+        - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1728.tfm
@@ -159,8 +160,35 @@ files:
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm2488.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1728.tfm
+        - >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+        - >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+        - >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+        - >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+        - >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+        - >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
+        - >-
+          /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+        - /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+        - /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
         - /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
         - /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb
         - /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb
@@ -305,6 +333,8 @@ files:
         - /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
         - /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
         - /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+        - /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
         - /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
         - /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
         - /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -329,6 +359,7 @@ files:
         - /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
         - /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
         - /usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
         - /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
         - /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
         - /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
@@ -373,7 +404,7 @@ files:
       calls: []
     type: ParsedFileListing
   Tarea 1.log-ParsedLaTeXLog:
-    timeStamp: 2019-09-12T19:48:54.076Z
+    timeStamp: 2019-09-13T00:40:13.607Z
     jobNames: []
     value:
       messages:
@@ -2547,6 +2578,48 @@ files:
               end: 1080
         - severity: info
           name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msa
+          source:
+            file: Tarea 1.tex
+            range:
+              start: 44
+              end: 44
+          log:
+            file: Tarea 1.log
+            range:
+              start: 1111
+              end: 1111
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msb
+          source:
+            file: Tarea 1.tex
+            range:
+              start: 44
+              end: 44
+          log:
+            file: Tarea 1.log
+            range:
+              start: 1115
+              end: 1115
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+rsfs
+          source:
+            file: Tarea 1.tex
+            range:
+              start: 44
+              end: 44
+          log:
+            file: Tarea 1.log
+            range:
+              start: 1119
+              end: 1119
+        - severity: info
+          name: pdfTeX
           category: LaTeX
           text: Redefining \.
           source:
@@ -2557,8 +2630,8 @@ files:
           log:
             file: Tarea 1.log
             range:
-              start: 1113
-              end: 1113
+              start: 1125
+              end: 1125
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -2571,38 +2644,38 @@ files:
           log:
             file: Tarea 1.log
             range:
-              start: 1114
-              end: 1114
+              start: 1126
+              end: 1126
       inputs: []
       outputs:
         - Tarea 1.pdf
       calls: []
     type: ParsedLaTeXLog
   Tarea 1.aux:
-    timeStamp: 2019-09-12T19:49:14.369Z
+    timeStamp: 2019-09-13T00:40:13.405Z
     jobNames: []
     hash: IIxdHwLX0JGlgf+SV5ioXDd5uANB+zY9CP9kS5PhCOQ=
     type: LaTeXAuxilary
   Tarea 1.fls:
-    timeStamp: 2019-09-12T19:49:14.411Z
+    timeStamp: 2019-09-13T00:40:13.455Z
     jobNames: []
-    hash: kV8/BCiCAkYwwDX3xtPEWHmsssUTIdS3vSAEgxBN8Bw=
+    hash: Fa6v3EJbWg3bUlZqWOHqEXNn5Abn7JxcbNPgtzt9+O8=
     type: FileListing
   Tarea 1.log:
-    timeStamp: 2019-09-12T19:49:14.441Z
+    timeStamp: 2019-09-13T00:40:13.484Z
     jobNames: []
-    hash: 1/EzyimkPQE7nVS+kpKjMQxTct+xqsJmEmddfY2YzA8=
+    hash: nT7rLj5eoANltAeTt3FwgWCnO6amLYyUT2x0WNNdeFU=
     type: LaTeXLog
     subType: pdfTeX
   Tarea 1.synctex.gz:
-    timeStamp: 2019-09-12T19:49:14.441Z
+    timeStamp: 2019-09-13T00:40:13.484Z
     jobNames: []
-    hash: R6TR/9AhtWjTa/CiDzGts3I8iWDYJ4NTLRg5vyh+zoM=
+    hash: TPtG8vTGdb3u8/M6bnGs4L7tYk3ABtSHgvEWJqc2720=
     type: SyncTeX
   Tarea 1.pdf:
-    timeStamp: 2019-09-12T19:49:14.440Z
+    timeStamp: 2019-09-13T00:40:13.483Z
     jobNames: []
-    hash: qr7mw71WNC/X3V6LgyaBIaScukm7AbeLWEITPFmL0vc=
+    hash: 50C0jyzSd/VGhz4wMBt4suOClHkf1JWs4D5/MAqcdOs=
     type: PortableDocumentFormat
   Tarea 1.aux-ParsedLaTeXAuxilary:
     timeStamp: 2019-09-12T19:48:51.707Z
@@ -3233,6 +3306,84 @@ files:
   /usr/share/texlive/texmf-dist/web2c/texmf.cnf:
     timeStamp: 2019-03-19T15:24:35.000Z
     jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm:
+    timeStamp: 2016-11-25T18:31:36.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm:
+    timeStamp: 2016-11-25T18:31:57.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm:
+    timeStamp: 2016-11-25T18:31:57.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb:
+    timeStamp: 2016-11-25T18:32:17.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd:
+    timeStamp: 2016-11-25T18:33:40.000Z
+    jobNames: []
+    type: FontDescription
+  /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd:
+    timeStamp: 2016-11-25T18:33:40.000Z
+    jobNames: []
+    type: FontDescription
+  /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd:
+    timeStamp: 2016-11-25T18:33:51.000Z
+    jobNames: []
+    type: FontDescription
 rules:
   - name: ApplyOptions
     command: load
@@ -3707,6 +3858,64 @@ rules:
       - file: /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
         type: default
       - file: /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
+        type: default
+      - file: >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+        type: default
+      - file: >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+        type: default
+      - file: >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+        type: default
+      - file: >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+        type: default
+      - file: >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+        type: default
+      - file: >-
+          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
+        type: default
+      - file: >-
+          /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+        type: default
+      - file: >-
+          /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
         type: default
     outputs:
       - file: Tarea 1.aux
