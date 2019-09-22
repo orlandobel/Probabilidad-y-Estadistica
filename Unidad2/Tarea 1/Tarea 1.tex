@@ -52,13 +52,50 @@
 \textbf{6.-} A partir de una hora fija, cada carro que entra a una intersección es observado para ver si da vuelta a la izquierda (L), la derecha (R) o si sigue de frente (A). El experimento termina en cuanto se observa que un carro da vuelta a la izquierda. Sea $X$ el número de carrosobservados. ¿Cuáles son los posibles valores de $X$? De cinco resultados y sus valores $X$ asociados.\\
 $X = x,\ x=1,2,3,4,...$\\
 RAAL ($X=4$), L ($x=1$), ARL ($X=3$), RARRARL ($X=7$), RL ($X=2$) \vskip0.5cm
-\textbf{22.-}Una empresa de ventas en línea dispone de seis líneas telefónicas. Sea X el número de líneas en uso en un tiempo especificado. Suponga que la función masa de probabilidad de X es la que se da en la tabla adjunta. Calcule y trace la gráfica de la función de distribución acumulativa F(x). Luego utilícela para calcular las probabilidades de los eventos dados en los incisos a)–d) de dicho problema. \vskip 0.01 cm
-\begin{tabular}{l|c c c c c c c}
-    x&0&1&2&3&4&5&6\\
-    \hline
-    p(x)&0.10&0.15&0.20&0.25&0.20&0.06&0.04\\
-\end{tabular}\vskip0.5cm
 
+\textbf{16.-} Algunas partes de Caifornia son particularmente propensas a los templores. Suponga que en un area metropolitana, 30\% de todos los propietarios de casa están asegurados contra daños provocados por terremotos. Se seleccionan al azar cuatropropietarios de casa, sea $X$ el número entre los cuatro que están asegurados contra erremotos.\\
+\begin{enumerate}[a)]
+	\item Encuentre la distribucion  de probabilidad de $X$\\
+	A: está asegurado\\
+	N: no está asegurado\\
+	\begin{tabular}{|c|c|c|}
+		\hline
+		x & resultados & P(x)\\ \hline
+		0 & NNNN & 0.1401 \\ \hline
+		1 & AFFF,FAFF,FFAF,FFFA & 0.4116 \\ \hline
+		2 & AAFF,AFAF,AFFA,FAAF,FAFA,FFAA & 0.2646 \\ \hline
+		3 & AAAF,AAFA,AFAA,FAAA & 0.0756 \\ \hline
+		4 & AAAA & 0.0081 \\ \hline
+	\end{tabular}
+	\item Trace el histograma de probabiliad
+	\item Cual es el valor mas probable de $X$\\
+	$x=1$
+	\item ¿Cuál es la probabilidad de por lo menos dos de los cuatro seleccionados esten asegurados contra terremotos? \\
+	$0.2646+0.0756+0.0081=0.3483$
+\end{enumerate}\vskip0.5
+
+\textbf{18.-} Dos dados de seis caras son lanzados al aire en forma independiente. Sea $M$ el máximo de los dos lanzamietos (por lo tanto $M(1,5)=5$, $M(3,3)=3$ etc.)\\
+\begin{enumerate}[a)]
+	\item ¿Cuál es la función masa de probabilidad de $M$?\\
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		$x$ & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline
+		$f(x)$ & 0.05 & 0.09 & 0.14 & 0.19 & 0.24 & 0.29\\ \hline
+	\end{tabular}
+
+	\item Deterine la funcion de distribución acumulativa de $M$ y dibujela\\
+	$F(X)=
+	\left\{\begin{array}{l c}
+		0 & x<1\\
+		0.05 & 1 \leq x < 2\\
+		0.14 & 2 \leq x < 3\\
+		0.28 & 3 \leq x < 4\\
+		0.47 & 4 \leq x < 5\\
+		0.71 & 5 \leq x < 6\\
+		1 & x > 6
+	\end{array}
+	$
+\end{enumerate} \vskip0.5cm
 \textbf{20.-} Tres parejas y dos individuos  han sido invitaos a un seminari de inversión y han aceptaado asistir. Suponga que la probabilidad de que cualquier pareja o individuo particular llegue tarde es de 0.4 (una pareja viajara en el mismo vehiculo, asi que ambos llegarán a tiempo o bien ambos llegán tarde). Suponga que diferentes parejas e individuos llegan puntuales o tarde independientemente unoa de otros. Sea $X$ el número de personas que llegan tarde al seminario.\\
 \begin{enumerate}[a)]
 	\item Determine la función masa de probabilidad de $X$\\
@@ -69,6 +106,13 @@ RAAL ($X=4$), L ($x=1$), ARL ($X=3$), RARRARL ($X=7$), RL ($X=2$) \vskip0.5cm
 	\end{tabular}
 \end{enumerate}
 
+\textbf{22.-}Una empresa de ventas en línea dispone de seis líneas telefónicas. Sea X el número de líneas en uso en un tiempo especificado. Suponga que la función masa de probabilidad de X es la que se da en la tabla adjunta. Calcule y trace la gráfica de la función de distribución acumulativa F(x). Luego utilícela para calcular las probabilidades de los eventos dados en los incisos a)–d) de dicho problema. \vskip 0.01 cm
+\begin{tabular}{l|c c c c c c c}
+    x&0&1&2&3&4&5&6\\
+    \hline
+    p(x)&0.10&0.15&0.20&0.25&0.20&0.06&0.04\\
+\end{tabular}\vskip0.5cm
+
 \textbf{24.-}Una compañía de seguros ofrece a sus asegurados varias opciones diferentes de pago de primas. Para un asegurado seleccionado al azar, sea $X$el número de meses entre pagos sucesivos. La función de distribución acumulativa es la siguiente:\vskip 0.01 cm
 \begin{center}
 F(x)=$\left\{\begin{array}{l c}
@@ -77,7 +121,7 @@ F(x)=$\left\{\begin{array}{l c}
     0.40 & 3 \leq x < 4\\
     0.45 & 4 \leq x < 6\\
     0.60 & 6 \leq x < 13\\
-    1    & 12 \leq x\\
+    1    & 12 \leq x
 \end{array}\right.$
 \end{center} \jump
 \textbf{Respuestas.$\_$}\jump

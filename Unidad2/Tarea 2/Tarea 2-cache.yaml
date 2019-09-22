@@ -1,5 +1,5 @@
 version: 0.12.2
-filePath: Tarea 1.tex
+filePath: Tarea 2.tex
 options:
   $BIBINPUTS:
     - $ROOTDIR
@@ -70,7 +70,7 @@ options:
   intermediatePostScript: false
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2019-09-13T12:31:37.817Z
+    timeStamp: 2019-09-22T02:37:56.804Z
     jobNames: []
     value:
       severity: info
@@ -78,16 +78,16 @@ files:
   dicy.yaml-ParsedYAML:
     jobNames: []
     type: ParsedYAML
-  Tarea 1.yaml-ParsedYAML:
+  Tarea 2.yaml-ParsedYAML:
     jobNames: []
     type: ParsedYAML
-  Tarea 1.tex-ParsedLaTeXMagic:
-    timeStamp: 2019-09-12T19:48:47.651Z
+  Tarea 2.tex-ParsedLaTeXMagic:
+    timeStamp: 2019-09-22T02:37:57.049Z
     jobNames: []
     value: {}
     type: ParsedLaTeXMagic
   /home/Odi/.config/dicy/config.yaml-ParsedYAML:
-    timeStamp: 2019-09-12T19:48:47.642Z
+    timeStamp: 2019-09-22T02:37:57.039Z
     jobNames: []
     value:
       synctex: true
@@ -127,21 +127,21 @@ files:
         - /texput.aux
       intermediatePostScript: false
     type: ParsedYAML
-  Tarea 1.tex:
-    timeStamp: 2019-09-13T14:18:00.672Z
+  Tarea 2.tex:
+    timeStamp: 2019-09-22T02:39:17.324Z
     jobNames: []
-    hash: Sqtvms2XJAuRa3503rZS14JxLC7Bjdsd2zUMy4xtfyM=
+    hash: mOpuNf8ObLZWi12HgUqBZwEqghOWylsrqUQeAgU6reU=
     type: LaTeX
     subType: article
   /home/Odi/.config/dicy/config.yaml:
-    timeStamp: 2019-09-13T12:31:37.881Z
+    timeStamp: 2019-09-22T02:37:56.924Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
-  Tarea 1.fls-ParsedFileListing:
-    timeStamp: 2019-09-13T12:31:47.205Z
+  Tarea 2.fls-ParsedFileListing:
+    timeStamp: 2019-09-22T02:38:06.859Z
     jobNames: []
     value:
       messages: []
@@ -150,8 +150,6 @@ files:
         - /usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
         - /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
         - /usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
-        - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0600.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
@@ -162,39 +160,8 @@ files:
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm2488.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1728.tfm
-        - >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-        - >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-        - >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-        - >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-        - >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-        - >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
         - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-        - /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-        - >-
-          /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-        - >-
-          /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-        - /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-        - /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-        - >-
-          /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
         - /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
         - /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
         - /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb
@@ -340,8 +307,6 @@ files:
         - /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
         - /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
         - /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-        - /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-        - /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
         - /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
         - /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
         - /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -366,7 +331,6 @@ files:
         - /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
         - /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
         - /usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
-        - /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
         - /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
         - /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
         - /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
@@ -402,16 +366,16 @@ files:
         - /usr/share/texlive/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
         - /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
         - /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-        - Tarea 1.aux
-        - Tarea 1.tex
+        - Tarea 2.aux
+        - Tarea 2.tex
       outputs:
-        - Tarea 1.aux
-        - Tarea 1.log
-        - Tarea 1.pdf
+        - Tarea 2.aux
+        - Tarea 2.log
+        - Tarea 2.pdf
       calls: []
     type: ParsedFileListing
-  Tarea 1.log-ParsedLaTeXLog:
-    timeStamp: 2019-09-13T14:18:04.706Z
+  Tarea 2.log-ParsedLaTeXLog:
+    timeStamp: 2019-09-22T02:39:12.013Z
     jobNames: []
     value:
       messages:
@@ -421,7 +385,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 28
               end: 28
@@ -436,7 +400,7 @@ files:
               start: 561
               end: 561
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 42
               end: 42
@@ -451,7 +415,7 @@ files:
               start: 662
               end: 662
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 43
               end: 43
@@ -466,7 +430,7 @@ files:
               start: 707
               end: 707
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 44
               end: 44
@@ -481,7 +445,7 @@ files:
               start: 707
               end: 707
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 45
               end: 45
@@ -491,7 +455,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 47
               end: 47
@@ -505,7 +469,7 @@ files:
               start: 48
               end: 48
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 50
               end: 50
@@ -515,7 +479,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 52
               end: 52
@@ -532,7 +496,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 53
               end: 63
@@ -546,7 +510,7 @@ files:
               start: 79
               end: 79
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 64
               end: 64
@@ -560,7 +524,7 @@ files:
               start: 334
               end: 334
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 142
               end: 142
@@ -574,7 +538,7 @@ files:
               start: 349
               end: 349
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 143
               end: 143
@@ -588,7 +552,7 @@ files:
               start: 350
               end: 350
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 144
               end: 144
@@ -602,7 +566,7 @@ files:
               start: 351
               end: 351
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 145
               end: 145
@@ -616,7 +580,7 @@ files:
               start: 352
               end: 352
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 146
               end: 146
@@ -630,7 +594,7 @@ files:
               start: 353
               end: 353
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 147
               end: 147
@@ -644,7 +608,7 @@ files:
               start: 354
               end: 354
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 148
               end: 148
@@ -658,7 +622,7 @@ files:
               start: 355
               end: 355
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 149
               end: 149
@@ -672,7 +636,7 @@ files:
               start: 356
               end: 356
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 150
               end: 150
@@ -686,7 +650,7 @@ files:
               start: 357
               end: 357
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 151
               end: 151
@@ -700,7 +664,7 @@ files:
               start: 358
               end: 358
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 152
               end: 152
@@ -714,7 +678,7 @@ files:
               start: 359
               end: 359
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 153
               end: 153
@@ -728,7 +692,7 @@ files:
               start: 360
               end: 360
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 154
               end: 154
@@ -742,7 +706,7 @@ files:
               start: 361
               end: 361
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 155
               end: 155
@@ -756,7 +720,7 @@ files:
               start: 362
               end: 362
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 156
               end: 156
@@ -770,7 +734,7 @@ files:
               start: 363
               end: 363
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 157
               end: 157
@@ -784,7 +748,7 @@ files:
               start: 364
               end: 364
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 158
               end: 158
@@ -798,7 +762,7 @@ files:
               start: 365
               end: 365
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 159
               end: 159
@@ -812,7 +776,7 @@ files:
               start: 366
               end: 366
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 160
               end: 160
@@ -826,7 +790,7 @@ files:
               start: 367
               end: 367
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 161
               end: 161
@@ -840,7 +804,7 @@ files:
               start: 368
               end: 368
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 162
               end: 162
@@ -854,7 +818,7 @@ files:
               start: 369
               end: 369
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 163
               end: 163
@@ -868,7 +832,7 @@ files:
               start: 370
               end: 370
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 164
               end: 164
@@ -882,7 +846,7 @@ files:
               start: 371
               end: 371
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 165
               end: 165
@@ -896,7 +860,7 @@ files:
               start: 372
               end: 372
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 166
               end: 166
@@ -910,7 +874,7 @@ files:
               start: 373
               end: 373
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 168
               end: 168
@@ -924,7 +888,7 @@ files:
               start: 374
               end: 374
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 169
               end: 169
@@ -938,7 +902,7 @@ files:
               start: 375
               end: 375
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 170
               end: 170
@@ -952,7 +916,7 @@ files:
               start: 376
               end: 376
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 171
               end: 171
@@ -966,7 +930,7 @@ files:
               start: 377
               end: 377
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 172
               end: 172
@@ -980,7 +944,7 @@ files:
               start: 378
               end: 378
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 173
               end: 173
@@ -994,7 +958,7 @@ files:
               start: 379
               end: 379
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 174
               end: 174
@@ -1008,7 +972,7 @@ files:
               start: 380
               end: 380
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 175
               end: 175
@@ -1022,7 +986,7 @@ files:
               start: 381
               end: 381
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 176
               end: 176
@@ -1036,7 +1000,7 @@ files:
               start: 382
               end: 382
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 177
               end: 177
@@ -1050,7 +1014,7 @@ files:
               start: 383
               end: 383
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 178
               end: 178
@@ -1064,7 +1028,7 @@ files:
               start: 384
               end: 384
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 179
               end: 179
@@ -1078,7 +1042,7 @@ files:
               start: 385
               end: 385
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 180
               end: 180
@@ -1092,7 +1056,7 @@ files:
               start: 386
               end: 386
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 181
               end: 181
@@ -1106,7 +1070,7 @@ files:
               start: 387
               end: 387
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 182
               end: 182
@@ -1120,7 +1084,7 @@ files:
               start: 388
               end: 388
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 183
               end: 183
@@ -1134,7 +1098,7 @@ files:
               start: 389
               end: 389
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 184
               end: 184
@@ -1148,7 +1112,7 @@ files:
               start: 390
               end: 390
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 185
               end: 185
@@ -1162,7 +1126,7 @@ files:
               start: 391
               end: 391
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 186
               end: 186
@@ -1176,7 +1140,7 @@ files:
               start: 392
               end: 392
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 187
               end: 187
@@ -1190,7 +1154,7 @@ files:
               start: 393
               end: 393
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 188
               end: 188
@@ -1204,7 +1168,7 @@ files:
               start: 394
               end: 394
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 189
               end: 189
@@ -1218,7 +1182,7 @@ files:
               start: 395
               end: 395
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 190
               end: 190
@@ -1232,7 +1196,7 @@ files:
               start: 396
               end: 396
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 191
               end: 191
@@ -1246,7 +1210,7 @@ files:
               start: 397
               end: 397
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 192
               end: 192
@@ -1260,7 +1224,7 @@ files:
               start: 398
               end: 398
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 193
               end: 193
@@ -1274,7 +1238,7 @@ files:
               start: 399
               end: 399
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 194
               end: 194
@@ -1288,7 +1252,7 @@ files:
               start: 400
               end: 400
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 195
               end: 195
@@ -1302,7 +1266,7 @@ files:
               start: 401
               end: 401
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 196
               end: 196
@@ -1316,7 +1280,7 @@ files:
               start: 402
               end: 402
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 197
               end: 197
@@ -1330,7 +1294,7 @@ files:
               start: 403
               end: 403
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 198
               end: 198
@@ -1344,7 +1308,7 @@ files:
               start: 404
               end: 404
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 199
               end: 199
@@ -1358,7 +1322,7 @@ files:
               start: 405
               end: 405
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 200
               end: 200
@@ -1372,7 +1336,7 @@ files:
               start: 406
               end: 406
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 201
               end: 201
@@ -1386,7 +1350,7 @@ files:
               start: 407
               end: 407
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 202
               end: 202
@@ -1400,7 +1364,7 @@ files:
               start: 408
               end: 408
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 203
               end: 203
@@ -1414,7 +1378,7 @@ files:
               start: 409
               end: 409
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 204
               end: 204
@@ -1424,7 +1388,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 206
               end: 206
@@ -1434,7 +1398,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 210
               end: 210
@@ -1444,7 +1408,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 214
               end: 214
@@ -1454,7 +1418,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 220
               end: 220
@@ -1464,7 +1428,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 223
               end: 223
@@ -1478,7 +1442,7 @@ files:
               start: 213
               end: 213
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 226
               end: 226
@@ -1492,7 +1456,7 @@ files:
               start: 375
               end: 375
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 229
               end: 229
@@ -1506,7 +1470,7 @@ files:
               start: 472
               end: 472
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 232
               end: 232
@@ -1520,7 +1484,7 @@ files:
               start: 475
               end: 475
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 233
               end: 233
@@ -1534,7 +1498,7 @@ files:
               start: 596
               end: 596
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 234
               end: 234
@@ -1548,7 +1512,7 @@ files:
               start: 712
               end: 712
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 238
               end: 238
@@ -1562,7 +1526,7 @@ files:
               start: 713
               end: 713
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 239
               end: 239
@@ -1576,7 +1540,7 @@ files:
               start: 2817
               end: 2817
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 260
               end: 260
@@ -1590,7 +1554,7 @@ files:
               start: 2818
               end: 2818
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 261
               end: 261
@@ -1600,7 +1564,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 263
               end: 263
@@ -1616,7 +1580,7 @@ files:
               start: 106
               end: 106
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 266
               end: 267
@@ -1626,7 +1590,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 269
               end: 269
@@ -1636,7 +1600,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 271
               end: 271
@@ -1646,7 +1610,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 273
               end: 273
@@ -1656,7 +1620,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 276
               end: 276
@@ -1666,7 +1630,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 278
               end: 278
@@ -1677,7 +1641,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 279
               end: 279
@@ -1687,7 +1651,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 281
               end: 281
@@ -1697,7 +1661,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 296
               end: 296
@@ -1707,7 +1671,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 300
               end: 300
@@ -1719,7 +1683,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 302
               end: 303
@@ -1729,7 +1693,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 305
               end: 305
@@ -1743,7 +1707,7 @@ files:
               start: 69
               end: 69
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 306
               end: 306
@@ -1753,7 +1717,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 308
               end: 308
@@ -1767,7 +1731,7 @@ files:
               start: 225
               end: 225
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 312
               end: 312
@@ -1781,7 +1745,7 @@ files:
               start: 1348
               end: 1348
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 316
               end: 316
@@ -1795,7 +1759,7 @@ files:
               start: 1352
               end: 1352
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 317
               end: 317
@@ -1809,7 +1773,7 @@ files:
               start: 1364
               end: 1364
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 318
               end: 318
@@ -1823,7 +1787,7 @@ files:
               start: 1366
               end: 1366
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 319
               end: 319
@@ -1837,7 +1801,7 @@ files:
               start: 1367
               end: 1367
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 320
               end: 320
@@ -1851,7 +1815,7 @@ files:
               start: 1368
               end: 1368
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 321
               end: 321
@@ -1865,7 +1829,7 @@ files:
               start: 1369
               end: 1369
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 322
               end: 322
@@ -1879,7 +1843,7 @@ files:
               start: 1370
               end: 1370
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 323
               end: 323
@@ -1893,7 +1857,7 @@ files:
               start: 1371
               end: 1371
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 324
               end: 324
@@ -1903,7 +1867,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 328
               end: 328
@@ -1913,7 +1877,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/pst-plot/pst-plot.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 463
               end: 463
@@ -1923,7 +1887,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 465
               end: 465
@@ -1935,7 +1899,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/multido/multido.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 467
               end: 468
@@ -1945,7 +1909,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/pst-plot/pst-plot.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 477
               end: 477
@@ -1955,7 +1919,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/pst-node/pst-node.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 532
               end: 532
@@ -1965,7 +1929,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/pst-node/pst-node.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 533
               end: 533
@@ -1975,7 +1939,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/pst-3d/pst-3d.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 537
               end: 537
@@ -1985,7 +1949,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/pst-math/pst-math.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 541
               end: 541
@@ -1998,7 +1962,7 @@ files:
             file: >-
               /usr/share/texlive/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 545
               end: 546
@@ -2008,7 +1972,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 551
               end: 551
@@ -2018,7 +1982,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 553
               end: 553
@@ -2029,7 +1993,7 @@ files:
             file: >-
               /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 702
               end: 702
@@ -2046,7 +2010,7 @@ files:
             "xparse/define-command"
             Defining command \psCalc with sig. 'm'.
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 709
               end: 713
@@ -2056,7 +2020,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 717
               end: 717
@@ -2068,7 +2032,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 719
               end: 720
@@ -2078,7 +2042,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 731
               end: 731
@@ -2088,7 +2052,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 733
               end: 733
@@ -2098,7 +2062,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 735
               end: 735
@@ -2112,7 +2076,7 @@ files:
               start: 99
               end: 99
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 739
               end: 739
@@ -2122,7 +2086,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 744
               end: 744
@@ -2132,7 +2096,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 758
               end: 758
@@ -2143,7 +2107,7 @@ files:
             file: >-
               /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 760
               end: 760
@@ -2153,7 +2117,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 762
               end: 762
@@ -2164,7 +2128,7 @@ files:
             file: >-
               /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 766
               end: 766
@@ -2175,7 +2139,7 @@ files:
             file: >-
               /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 806
               end: 806
@@ -2186,7 +2150,7 @@ files:
             file: >-
               /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 907
               end: 907
@@ -2197,7 +2161,7 @@ files:
             file: >-
               /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 913
               end: 913
@@ -2208,7 +2172,7 @@ files:
             file: >-
               /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 918
               end: 918
@@ -2217,12 +2181,12 @@ files:
           category: LaTeX
           text: Redefining \.
           source:
-            file: Tarea 1.aux
+            file: Tarea 2.aux
             range:
               start: 6
               end: 6
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 971
               end: 971
@@ -2231,12 +2195,12 @@ files:
           category: LaTeX
           text: Redefining \%
           source:
-            file: Tarea 1.aux
+            file: Tarea 2.aux
             range:
               start: 6
               end: 6
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 972
               end: 972
@@ -2245,12 +2209,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for OML/cmm/m/it ... okay
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 976
               end: 977
@@ -2259,12 +2223,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for T1/cmr/m/n ... okay
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 978
               end: 979
@@ -2273,12 +2237,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for OT1/cmr/m/n ... okay
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 980
               end: 981
@@ -2287,12 +2251,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for OMS/cmsy/m/n ... okay
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 982
               end: 983
@@ -2301,12 +2265,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for OMX/cmex/m/n ... okay
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 984
               end: 985
@@ -2315,12 +2279,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for U/cmr/m/n ... okay
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 986
               end: 987
@@ -2329,12 +2293,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for TS1/cmr/m/n
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 988
               end: 988
@@ -2343,12 +2307,12 @@ files:
           category: LaTeX Font
           text: Try loading font information for TS1+cmr ... okay
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 989
               end: 993
@@ -2357,12 +2321,12 @@ files:
           category: LaTeX
           text: Redefining \.
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 994
               end: 994
@@ -2371,12 +2335,12 @@ files:
           category: LaTeX
           text: Redefining \%
           source:
-            file: Tarea 1.tex
+            file: Tarea 2.tex
             range:
               start: 21
               end: 21
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 995
               end: 995
@@ -2386,7 +2350,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1044
               end: 1044
@@ -2396,7 +2360,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1046
               end: 1046
@@ -2406,7 +2370,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1048
               end: 1048
@@ -2417,7 +2381,7 @@ files:
             file: >-
               /usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1050
               end: 1050
@@ -2427,7 +2391,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1052
               end: 1052
@@ -2437,7 +2401,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1054
               end: 1054
@@ -2447,7 +2411,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1056
               end: 1056
@@ -2457,7 +2421,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1058
               end: 1058
@@ -2467,7 +2431,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1060
               end: 1060
@@ -2478,7 +2442,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1061
               end: 1061
@@ -2492,7 +2456,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1063
               end: 1066
@@ -2504,7 +2468,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1068
               end: 1069
@@ -2515,7 +2479,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1070
               end: 1070
@@ -2526,7 +2490,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1071
               end: 1071
@@ -2537,7 +2501,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1072
               end: 1072
@@ -2548,7 +2512,7 @@ files:
           source:
             file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1073
               end: 1073
@@ -2562,7 +2526,7 @@ files:
               start: 438
               end: 438
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1075
               end: 1076
@@ -2579,139 +2543,71 @@ files:
               start: 456
               end: 456
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
               start: 1077
               end: 1080
         - severity: info
           name: pdfTeX
-          category: LaTeX Font
-          text: Try loading font information for U+msa
-          source:
-            file: Tarea 1.tex
-            range:
-              start: 44
-              end: 44
-          log:
-            file: Tarea 1.log
-            range:
-              start: 1111
-              end: 1111
-        - severity: info
-          name: pdfTeX
-          category: LaTeX Font
-          text: Try loading font information for U+msb
-          source:
-            file: Tarea 1.tex
-            range:
-              start: 44
-              end: 44
-          log:
-            file: Tarea 1.log
-            range:
-              start: 1115
-              end: 1115
-        - severity: info
-          name: pdfTeX
-          category: LaTeX Font
-          text: Try loading font information for U+rsfs
-          source:
-            file: Tarea 1.tex
-            range:
-              start: 44
-              end: 44
-          log:
-            file: Tarea 1.log
-            range:
-              start: 1119
-              end: 1119
-        - severity: error
-          name: pdfTeX
-          text: Illegal unit of measure (pt inserted)
-          log:
-            file: Tarea 1.log
-            range:
-              start: 1127
-              end: 1128
-          source:
-            file: Tarea 1.tex
-            range:
-              start: 76
-              end: 76
-        - severity: error
-          name: pdfTeX
-          text: Missing \right. inserted
-          log:
-            file: Tarea 1.log
-            range:
-              start: 1145
-              end: 1146
-          source:
-            file: Tarea 1.tex
-            range:
-              start: 97
-              end: 97
-        - severity: info
-          name: pdfTeX
           category: LaTeX
           text: Redefining \.
           source:
-            file: Tarea 1.aux
+            file: Tarea 2.aux
             range:
               start: 6
               end: 6
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
-              start: 1165
-              end: 1165
+              start: 1113
+              end: 1113
         - severity: info
           name: pdfTeX
           category: LaTeX
           text: Redefining \%
           source:
-            file: Tarea 1.aux
+            file: Tarea 2.aux
             range:
               start: 6
               end: 6
           log:
-            file: Tarea 1.log
+            file: Tarea 2.log
             range:
-              start: 1166
-              end: 1166
+              start: 1114
+              end: 1114
       inputs: []
       outputs:
-        - Tarea 1.pdf
+        - Tarea 2.pdf
       calls: []
     type: ParsedLaTeXLog
-  Tarea 1.aux:
-    timeStamp: 2019-09-13T14:18:04.539Z
+  Tarea 2.aux:
+    timeStamp: 2019-09-22T02:39:19.843Z
     jobNames: []
     hash: IIxdHwLX0JGlgf+SV5ioXDd5uANB+zY9CP9kS5PhCOQ=
     type: LaTeXAuxilary
-  Tarea 1.fls:
-    timeStamp: 2019-09-13T14:18:04.594Z
+  Tarea 2.fls:
+    timeStamp: 2019-09-22T02:39:19.891Z
     jobNames: []
-    hash: aEbOordsjGCccGwZZP1zHhY5PmsvnpO9/FDsYXnObXM=
+    hash: m7j4AuXQjfTTJqzPc/na4ylMAkDT7NuIMdhVzuAQpXg=
     type: FileListing
-  Tarea 1.log:
-    timeStamp: 2019-09-13T14:18:04.620Z
+  Tarea 2.log:
+    timeStamp: 2019-09-22T02:39:19.919Z
     jobNames: []
-    hash: zsXOc9U6AV6Qz2p9udl9crK79nTC8OXKn4z9vboH5qo=
+    hash: qlHwWiWh419/ASrWiiBo2OuGmJziDZAy2OmyfhZIPdo=
     type: LaTeXLog
     subType: pdfTeX
-  Tarea 1.synctex.gz:
-    timeStamp: 2019-09-13T14:18:04.620Z
+  Tarea 2.synctex.gz:
+    timeStamp: 2019-09-22T02:39:19.919Z
     jobNames: []
-    hash: 6JQCbr3X254/MO08NNyhUHE6y1eJWsFG2OAblsi8frc=
+    hash: 3Q0b4x3OFezPo1CU9BKpCRU9CY02veqVWzx6RAPra1c=
     type: SyncTeX
-  Tarea 1.pdf:
-    timeStamp: 2019-09-13T14:18:04.619Z
+  Tarea 2.pdf:
+    timeStamp: 2019-09-22T02:39:19.918Z
     jobNames: []
-    hash: CZJIhpPHupIMr3RGiImD5guvhy7/IL7ZNpKDUkS+CFM=
+    hash: QRyncT/xEbTFN10X6J96QJ0GArHwNpySVs8xO+UvIYc=
     type: PortableDocumentFormat
-  Tarea 1.aux-ParsedLaTeXAuxilary:
-    timeStamp: 2019-09-12T19:48:51.707Z
+  Tarea 2.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2019-09-22T02:38:06.829Z
     jobNames: []
     value:
       commands:
@@ -2733,6 +2629,9 @@ files:
     jobNames: []
   /usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map:
     timeStamp: 2018-07-06T00:23:45.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm:
+    timeStamp: 2016-11-25T18:31:36.000Z
     jobNames: []
   /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm:
     timeStamp: 2016-11-25T18:31:36.000Z
@@ -2766,6 +2665,9 @@ files:
     jobNames: []
   /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm:
     timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb:
+    timeStamp: 2016-11-25T18:32:17.000Z
     jobNames: []
   /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb:
     timeStamp: 2016-11-25T18:32:17.000Z
@@ -3339,96 +3241,6 @@ files:
   /usr/share/texlive/texmf-dist/web2c/texmf.cnf:
     timeStamp: 2019-03-19T15:24:35.000Z
     jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm:
-    timeStamp: 2016-11-25T18:31:36.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm:
-    timeStamp: 2016-11-25T18:31:38.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm:
-    timeStamp: 2016-11-25T18:31:38.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm:
-    timeStamp: 2016-11-25T18:31:38.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm:
-    timeStamp: 2016-11-25T18:31:38.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm:
-    timeStamp: 2016-11-25T18:31:38.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm:
-    timeStamp: 2016-11-25T18:31:38.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm:
-    timeStamp: 2016-11-25T18:31:41.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm:
-    timeStamp: 2016-11-25T18:31:41.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm:
-    timeStamp: 2016-11-25T18:31:41.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm:
-    timeStamp: 2016-11-25T18:31:41.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm:
-    timeStamp: 2016-11-25T18:31:41.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm:
-    timeStamp: 2016-11-25T18:31:41.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm:
-    timeStamp: 2016-11-25T18:31:41.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm:
-    timeStamp: 2016-11-25T18:31:41.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm:
-    timeStamp: 2016-11-25T18:31:41.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm:
-    timeStamp: 2016-11-25T18:31:57.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm:
-    timeStamp: 2016-11-25T18:31:57.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb:
-    timeStamp: 2016-11-25T18:32:13.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb:
-    timeStamp: 2016-11-25T18:32:13.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb:
-    timeStamp: 2016-11-25T18:32:13.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb:
-    timeStamp: 2016-11-25T18:32:17.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd:
-    timeStamp: 2016-11-25T18:33:40.000Z
-    jobNames: []
-    type: FontDescription
-  /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd:
-    timeStamp: 2016-11-25T18:33:40.000Z
-    jobNames: []
-    type: FontDescription
-  /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd:
-    timeStamp: 2016-11-25T18:33:51.000Z
-    jobNames: []
-    type: FontDescription
-  /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0600.tfm:
-    timeStamp: 2016-11-25T18:31:36.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm:
-    timeStamp: 2016-11-25T18:31:36.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb:
-    timeStamp: 2016-11-25T18:32:13.000Z
-    jobNames: []
-  /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb:
-    timeStamp: 2016-11-25T18:32:13.000Z
-    jobNames: []
 rules:
   - name: ApplyOptions
     command: load
@@ -3437,9 +3249,9 @@ rules:
     inputs:
       - file: dicy.yaml-ParsedYAML
         type: default
-      - file: Tarea 1.yaml-ParsedYAML
+      - file: Tarea 2.yaml-ParsedYAML
         type: default
-      - file: Tarea 1.tex-ParsedLaTeXMagic
+      - file: Tarea 2.tex-ParsedLaTeXMagic
         type: default
       - file: dicy-instance.yaml-ParsedYAML
         type: default
@@ -3465,9 +3277,9 @@ rules:
     inputs:
       - file: dicy.yaml-ParsedYAML
         type: default
-      - file: Tarea 1.yaml-ParsedYAML
+      - file: Tarea 2.yaml-ParsedYAML
         type: default
-      - file: Tarea 1.tex-ParsedLaTeXMagic
+      - file: Tarea 2.tex-ParsedLaTeXMagic
         type: default
       - file: dicy-instance.yaml-ParsedYAML
         type: default
@@ -3488,12 +3300,12 @@ rules:
     command: load
     phase: execute
     parameters:
-      - Tarea 1.tex
+      - Tarea 2.tex
     inputs:
-      - file: Tarea 1.tex
+      - file: Tarea 2.tex
         type: default
     outputs:
-      - file: Tarea 1.tex-ParsedLaTeXMagic
+      - file: Tarea 2.tex-ParsedLaTeXMagic
         type: default
   - name: AssignJobNames
     command: load
@@ -3511,15 +3323,15 @@ rules:
     command: build
     phase: execute
     parameters:
-      - Tarea 1.tex
+      - Tarea 2.tex
     inputs:
-      - file: Tarea 1.tex
+      - file: Tarea 2.tex
         type: default
-      - file: Tarea 1.fls-ParsedFileListing
+      - file: Tarea 2.fls-ParsedFileListing
         type: default
-      - file: Tarea 1.log-ParsedLaTeXLog
+      - file: Tarea 2.log-ParsedLaTeXLog
         type: default
-      - file: Tarea 1.aux
+      - file: Tarea 2.aux
         type: default
       - file: /home/Odi/.texlive2018/texmf-var/web2c/pdftex/pdflatex.fmt
         type: default
@@ -3528,6 +3340,8 @@ rules:
       - file: /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
         type: default
       - file: /usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
         type: default
       - file: /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm
         type: default
@@ -3550,6 +3364,8 @@ rules:
       - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
         type: default
       - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
         type: default
       - file: /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
         type: default
@@ -3904,116 +3720,49 @@ rules:
         type: default
       - file: /usr/share/texlive/texmf-dist/web2c/texmf.cnf
         type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
-        type: default
-      - file: >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-        type: default
-      - file: >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-        type: default
-      - file: >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-        type: default
-      - file: >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-        type: default
-      - file: >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-        type: default
-      - file: >-
-          /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-        type: default
-      - file: >-
-          /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-        type: default
-      - file: >-
-          /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
-        type: default
-      - file: /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-        type: default
-      - file: /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-        type: default
-      - file: /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0600.tfm
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm
-        type: default
-      - file: >-
-          /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-        type: default
-      - file: /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-        type: default
     outputs:
-      - file: Tarea 1.aux
+      - file: Tarea 2.aux
         type: default
-      - file: Tarea 1.fls
+      - file: Tarea 2.fls
         type: default
-      - file: Tarea 1.log
+      - file: Tarea 2.log
         type: default
-      - file: Tarea 1.synctex.gz
+      - file: Tarea 2.synctex.gz
         type: target
-      - file: Tarea 1.pdf
+      - file: Tarea 2.pdf
         type: target
   - name: ParseLaTeXAuxilary
     command: build
     phase: execute
     parameters:
-      - Tarea 1.aux
+      - Tarea 2.aux
     inputs:
-      - file: Tarea 1.aux
+      - file: Tarea 2.aux
         type: default
     outputs:
-      - file: Tarea 1.aux-ParsedLaTeXAuxilary
+      - file: Tarea 2.aux-ParsedLaTeXAuxilary
         type: default
   - name: ParseFileListing
     command: build
     phase: execute
     parameters:
-      - Tarea 1.fls
+      - Tarea 2.fls
     inputs:
-      - file: Tarea 1.fls
+      - file: Tarea 2.fls
         type: default
     outputs:
-      - file: Tarea 1.fls-ParsedFileListing
+      - file: Tarea 2.fls-ParsedFileListing
         type: default
   - name: ParseLaTeXLog
     command: build
     phase: execute
     parameters:
-      - Tarea 1.log
+      - Tarea 2.log
     inputs:
-      - file: Tarea 1.log
+      - file: Tarea 2.log
         type: default
     outputs:
-      - file: Tarea 1.log-ParsedLaTeXLog
+      - file: Tarea 2.log-ParsedLaTeXLog
         type: default
   - name: LogProducedTargets
     command: build
@@ -4025,9 +3774,9 @@ rules:
     command: build
     phase: finalize
     parameters:
-      - Tarea 1.tex
+      - Tarea 2.tex
     inputs:
-      - file: Tarea 1.tex
+      - file: Tarea 2.tex
         type: default
     outputs: []
   - name: FindLogFiles
@@ -4040,21 +3789,21 @@ rules:
     command: log
     phase: execute
     parameters:
-      - Tarea 1.log-ParsedLaTeXLog
+      - Tarea 2.log-ParsedLaTeXLog
     inputs:
-      - file: Tarea 1.log-ParsedLaTeXLog
+      - file: Tarea 2.log-ParsedLaTeXLog
         type: default
     outputs: []
   - name: ParseLaTeXLog
     command: log
     phase: execute
     parameters:
-      - Tarea 1.log
+      - Tarea 2.log
     inputs:
-      - file: Tarea 1.log
+      - file: Tarea 2.log
         type: default
     outputs:
-      - file: Tarea 1.log-ParsedLaTeXLog
+      - file: Tarea 2.log-ParsedLaTeXLog
         type: default
   - name: SaveCache
     command: save
