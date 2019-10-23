@@ -1,0 +1,80 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc} % Puede depender del sistema o editor
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{mathrsfs}
+\usepackage{pstricks-add}
+\usepackage{pgfkeys}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+\usepackage{tikz}
+\usetikzlibrary{fit,positioning}
+\begin{document}
+    \begin{titlepage}
+        \centering
+        {\scshape\LARGE Instituto Politécnico Nacional\\ Unidad Profesional Interdisiplinaria de Ingenierias campus Zacatecas\par}
+        \vspace{1cm}
+        {\scshape\Large Probabilidad Y Estadistica\par}
+        \vspace{1.5cm}
+        {\huge\bfseries Unidad 3 Tarea 1\par}
+        \vspace{2cm}
+        {\Large\itshape Gerardo Ayala Juárez\par}
+        {\Large\itshape Olando Odiseo Belmonte Flores\par}
+        {\Large\itshape Lucía Monserrat López Méndez\par}
+        {\Large\itshape Oscar Iván Palacios Ulloa\par}
+        \vfill
+        Maestro:\par
+        \textsc{
+        Rosendo Vasquez Bañuelos}
+        \vfill
+        % Bottom of the page
+        {\large \today \par}
+    \end{titlepage}
+
+    \textbf{2. }\vskip1cm
+    \textbf{4. }\vskip1cm
+    \textbf{6. }\vskip1cm
+    \textbf{8. }De acuerdo con un estudio publicado por un grupo de sociólogos de la Universidad de Massachusetts,
+    aproximadamente el $60\%$ de los adictos al Valium en el estado de Massachusetts, lo tomaon por primera vez debido
+    a problemas sicológicos. Encuentre la probabilidad de que de los siguientes 8 adictos entrevistados
+    \begin{enumerate}[a)]
+        \item Exactamente 3 hayan comenzado a usarlo debido a problemas sicológicos\\
+            $b(3;8,0.6)=
+            \left(\begin{array}{c l}
+                      8\\3
+            \end{array}\right)
+            (0.6)^{3}(0.4)^{5}=0.12$
+        \item Al menos 5 de ellos comenzara a tomarlo por problemas que no fueron sicológicos\\
+            $x$ representa el numero de adictos que comenzaron a tomarlo por problemas no sicológicos
+            $p(x<5)=\displaystyle\sum_{x=0}^{4}b(x;8,0.4)=0.8263$
+    \end{enumerate}\vskip1cm
+
+    \textbf{10. }De acuerdo con un reporte publicado en la revista \textit{Padre}, Septiemre 14 de 1980, una investigación
+    a nivel nacional llevada a cabo por la Universidad de Michigan reveló que casi el $70\%$ de los estudiantes del
+    último año desaprueban las medidas para controlar el hábito de fumar mariguana todos los días. Si 12 de estos
+    estudiantes se seleccionan al azar y se les pregunta su opinión, encuentre la probabilidad de que el número que
+    desaprueba dicha medida sea
+    \begin{enumerate}
+        \item Cualquier camtidad entre 7 y 9
+            $P(7\leq x\leq 9)=\displaystyle\sum_{x=0}^{9}b(x;12,0.7)-\sum_{x=0}^{6b(x;12,0.7)}=0.7472-0.1178=0.6294$
+        \item Cuando mucho 5
+            $P(x\leq 5)=\displaystyle\sum_{x=0}^{5}b(x;12,0.7)=0.0386$
+        \item no menos de 8
+            $P(x\geq 8)=\displaystyle\sum_{x=0}^{12}b(x;12,0.7)-\sum_{x=0}^{7}b(x;12,0.7)=1-0.2763=0.7237$
+    \end{enumerate}\vskip1cm
+
+    \textbf{12. }\vskip1cm
+    \textbf{14. }\vskip1cm
+    \textbf{16. }\vskip1cm
+    \textbf{18. }\vskip1cm
+    \textbf{20. }\vskip1cm
+    \textbf{22. }\vskip1cm
+\end{document}
