@@ -73,8 +73,36 @@
 
     \textbf{12. }\vskip1cm
     \textbf{14. }\vskip1cm
-    \textbf{16. }\vskip1cm
-    \textbf{18. }\vskip1cm
+    \textbf{16.} Suponga que los motores de un aeroplano operan en forma independiente y de que fallan con una probabilidad de 0.4. Suponiendo que  uno de estos artefactors realiza un vuelo seguro en tanto se mantenga funcionando cuando menos la mitad  de los motores , determine qu\'e aeroplano uno de los 4 motores o uno de 2, tiene mayor probabilidad de terminar su vuelo exitosamente.\\
+
+        \begin{center}
+            \begin{math}
+                \begin{array}{cc||cc}
+                n=2 ;&p=0.4,q=0.6&n=4 ;&p=0.4,q=0.6\\
+                    P(x\leq 1)=&\displaystyle\sum^{1}_{i=0} b(i;2,0.4)&P(x\leq 2)=&\displaystyle\sum^{2}_{j=0} b(h;4,0.4)\\ 
+                    \displaystyle\sum^{1}_{i=0} b(i;2,0.4)=&.84&\displaystyle\sum^{2}_{j=0} b(j;4,0.4)=&.8208\\    
+                \end{array}
+         \end{math}
+        \\Por lo tanto, tiene mas probabilidades de Tener un vuelo exitoso un vuelo con dos motores que 4 motores 
+        \end{center}\vskip1cm
+        \textbf{18.} Encuentre la media y la varianca de la variable aleatoria binomal del ejercicio 14.\\
+        $b(x;n,p)$\\
+        $n=20$\\
+        $p=0.20$\\
+        $q=1-p=0.80$\\
+        \begin{center}
+            \begin{math}
+                \begin{array}{|c c || c c|}
+                    \hline
+                    \mu =& np & \varphi^2 =& npq \\
+                    \mu =& (20)(0.20) & \varphi^2 =&(20)(0.20)(0.80)\\
+                    \hline
+                    \hline
+                    \mu =&  4 & \varphi^2 =& 3.2 \\    
+                    \hline
+                \end{array} 
+            \end{math}
+        \end{center}\vskip1cm
     \textbf{20. }\vskip1cm
     \textbf{22. }\vskip1cm
 \end{document}

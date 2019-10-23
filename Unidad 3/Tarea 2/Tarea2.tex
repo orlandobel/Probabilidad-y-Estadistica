@@ -38,6 +38,7 @@
         % Bottom of the page
         {\large \today \par}
     \end{titlepage}
+
     \textbf{2. }\vskip1cm
     \textbf{4. }De un lote de 10 proyectiles, 4 se seleccionan al azar y se disparan. Si el lote contien 3 proectiles
     defectuosos que no explotan, ¿Cuál es la probabilidad de que
@@ -63,4 +64,71 @@
     \textbf{14. }\vskip1cm
     \textbf{16. }\vskip1cm
     \textbf{18. }\vskip1cm
+
+    \textbf{12.} Se estima que 4000 de los 10 000 residentes que votan en un pueblo est\'an en contra del nuevo impuesto sobre las ventas. Si se seleccionan aleatoriamente 15 votantes y se les pregunta su opini\'on, ¿Cu\'al es la probabilidad de que almenos 7 est\'en a favor del nuevo impuesto?\\
+    $N=10000$\\
+    $k=4000$\\
+    $n=15$\\
+    $7\leq x \leq 15$\\
+    \begin{center}
+        \begin{math}
+            \begin{array}{ccc}
+                h(x;N,n,k)=&\displaystyle\frac{{\displaystyle\binom{k}{x} \displaystyle\binom{N-k}{n-x}}}{\displaystyle\binom{N}{n}}&\\
+                P(7\leq x)=&\displaystyle\sum^{15}_{i=7} h(i;10000,15,4000)&\\ 
+                h(7;10000,15,4000)= & \frac{\binom{4000}{7} \binom{6000}{8}}{\binom{10000}{15}}&=0.17718\\
+                h(8;10000,15,4000)= & \frac{\binom{4000}{8} \binom{6000}{7}}{\binom{10000}{15}}&=0.11805\\
+                h(9;10000,15,4000)= & \frac{\binom{4000}{9} \binom{6000}{6}}{\binom{10000}{15}}&=0.06115\\
+                h(10;10000,15,4000)= & \frac{\binom{4000}{10} \binom{6000}{5}}{\binom{10000}{15}}&=0.02442\\
+                h(11;10000,15,4000)= & \frac{\binom{4000}{11} \binom{6000}{4}}{\binom{10000}{15}}&=7.3x10^{-3}\\
+                h(12;10000,15,4000)= & \frac{\binom{4000}{12} \binom{6000}{3}}{\binom{10000}{15}}&=1.6x10^{-3}\\
+                h(13;10000,15,4000)= & \frac{\binom{4000}{13} \binom{6000}{2}}{\binom{10000}{15}}&=2.5x10^{-4}\\
+                h(14;10000,15,4000)= & \frac{\binom{4000}{14} \binom{6000}{1}}{\binom{10000}{15}}&=2.3x10^{-5}\\
+                h(15;10000,15,4000)= & \frac{\binom{4000}{15} \binom{6000}{0}}{\binom{10000}{15}}&=1.05x10^{-6}\\
+                P(7\leq x)=&\displaystyle\sum^{15}_{i=7} h(i;10000,15,4000)&=0.38997\\
+                \hline
+                \end{array}
+        \end{math}\\
+        Por otro lado si: $N>>n \hspace{1 cm}   p = \displaystyle\frac{k}{N} :  h(x;N,n,k) \approx b(x;n,p)$\\
+        \begin{math}
+            \begin{array}{c c c}
+                P(7\leq x)=&\displaystyle\sum^{15}_{i=0} b(i;15,\displaystyle\frac{4}{10})- \displaystyle\sum^{6}_{i=0} b(i;15,\displaystyle\frac{4}{10})&\\
+                P(7\leq x)=&1-0.6098&= 0.3902\\   
+            \end{array}
+        \end{math}
+    \end{center}
+    \textbf{14.} De entre 150 solicitudes para empearse en la IRS en una gran ciudad, s\'olo 30 son de mujeres. Si 10 de los solicitantes se escogenal azar para dar asistencia libre sobre impuestos a los residentes de esta ciudad, utilice la aproximaci\'on binomial a la distribuci\'ion hipergeom\'etrica para encontrar la probabilidad de que al menos 3 mujeres sean seleccionadas.\\
+    N=150\\
+    k=30\\
+    n=10\\
+    \begin{center}
+        \begin{math}
+            \begin{array}{ccc}
+                \displaystyle\frac{k}{N} :&  h(x;N,n,k) \approx b(x;n,p)&\\
+                \displaystyle\frac{30}{150} :&  h(x;150,10,30) \approx b(x;10,\displaystyle\frac{30}{150})&\\
+                \hline\\
+                P(3\leq x)=&\displaystyle\sum^{10}_{i=0} b(i;10,\displaystyle\frac{3}{15})- \displaystyle\sum^{2}_{i=0} b(i;10,\displaystyle\frac{3}{15})&\\
+                P(3 \leq x)=& 1-0.6778&=0.3222\\
+            \end{array}
+        \end{math}
+    \end{center}\vskip1cm
+    Comprobando con la hipergeometrica:\\
+    \begin{center}
+        \begin{math}
+            \begin{array}{ccc}
+                h(x;N,n,k)=&\displaystyle\frac{{\displaystyle\binom{k}{x} \displaystyle\binom{N-k}{n-x}}}{\displaystyle\binom{N}{n}}&\\
+                P(3\leq x)=&\displaystyle\sum^{10}_{i=3} h(i;150,10,30)&\\ 
+                h(3;150,10,30)= & \frac{\binom{30}{3} \binom{120}{7}}{\binom{150}{10}}&=0.2065\\
+                h(4;150,10,30)= & \frac{\binom{30}{4} \binom{120}{6}}{\binom{150}{10}}&=0.0855\\
+                h(5;150,10,30)= & \frac{\binom{30}{5} \binom{120}{5}}{\binom{150}{10}}&=0.0232\\
+                h(6;150,10,30)= & \frac{\binom{30}{6} \binom{120}{4}}{\binom{150}{10}}&=4.1x10^{-3}\\
+                h(7;150,10,30)= & \frac{\binom{30}{7} \binom{120}{3}}{\binom{150}{10}}&=4.8x10^{-4}\\
+                h(8;150,10,30)= & \frac{\binom{30}{8} \binom{120}{2}}{\binom{150}{10}}&=3.5x10^{-5}\\
+                h(9;150,10,30)= & \frac{\binom{30}{9} \binom{120}{1}}{\binom{150}{10}}&=1.46x10^{-6}\\
+                h(10;150,10,30)= & \frac{\binom{30}{10} \binom{120}{0}}{\binom{10000}{15}}&=2.56x10^{-8}\\
+                P(3\leq x)=&\displaystyle\sum^{10}_{i=3} h(i;150,10,30)&=0.3198\\
+                \hline
+                \end{array}
+        \end{math}\\
+    \end{center}\vskip1cm 
+
 \end{document}
