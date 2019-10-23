@@ -43,23 +43,19 @@
     defectuosos que no explotan, ¿Cuál es la probabilidad de que
     \begin{enumerate}[a)]
         \item los 4 exploten?\\
-            $b(4;4,0.3)=
-            \left(\begin{array}{c l}
-                            4\\4
-            \end{array}\right)
-            (0.3)^4(0.7)^0=0.0081$
-        \item al menos 2 no exploten?\\
-            $P(x\geq 2)=\displaystyle\sum_{x=0}^{4}b(x;4,0.3)-\sum_{x=0}^{1}b(x;4,0.3)=1-0.9163=0.0837$
+            $x$ v.a. que representa los proyectiles que explotan\vskip0.3cm
+            $h(4;10,4,7)=\displaystyle\frac{\displaystyle\binom{7}{4}\displaystyle\binom{3}{0}
+            }{\displaystyle\binom{10}{4}}=0.16$
+        \item al menos 2 no exploten?\vskip0.3cm
+            $P(x\leq 2)=P(x=2)+P(x=1)=h(2;10,4,7)+h(1;10,4,7)=\displaystyle\frac{\displaystyle\binom{7}{2}\displaystyle\binom{3}{2}}{\displaystyle\binom{10}{4}}+
+            \displaystyle\frac{\displaystyle\binom{7}{1}\displaystyle\binom{3}{3}}{\displaystyle\binom{10}{4}}$\vskip0.3cm
+            $=0.3+0.03=0.33$
     \end{enumerate}\vskip1cm
 
     \textbf{6. }¿Cuál es la probailidad de que una mesera se rehúse a servir bebidas alcohólocas únicamente a 2 menores
     de edad, si verifica aleatoriamente sólo 5 identificaciones de entre 9 estudiantes, de los cuales 4 no tienen la
-    edad suficiente\vskip0.3cm
-        $b(2;5,\frac{4}{9})=
-        \left(\begin{array}{c l}
-                  5\\2
-        \end{array}\right)
-        \displaystyle\left(\frac{4}{9}\right)^2\left(\frac{5}{9}\right)^3=0.1045$\vskip1cm
+    edadsuficiente\vskip0.3cm
+            $h(2;9,5,4)=\displaystyle\frac{\displaystyle\binom{5}{2}\displaystyle\binom{4}{2}}{\displaystyle\binom{9}{5}}=0.47$
 
     \textbf{8. }\vskip1cm
     \textbf{10. }\vskip1cm
