@@ -49,9 +49,44 @@
         \item la primera cara en el cuarto lanzamiento
     \end{enumerate}\vskip1cm
 
-    \textbf{6. }\vskip1cm
+    \textbf{6. } De acuerdo con un estudio publicado por un grupo de sociólogos de la Universidad de Massachusetts, alrededor de las dos terceras partes de los 20 millones de personas en Estados Unidos que consumen Valium son mujeres. Suponiendo que ésta es una estimación válida, encuentre la probabilidad de que en un determinado día la quinta receta médica por Valium sea\\
+$b^*(x;k,P)=\left( \frac{x-1}{k-1}\right) P^k q^{x-k}$\\    
+    \begin{enumerate}[a)]
+    	\item La primera preinscripción de Valium para una mujer.\\
+    	$x=5$\\
+    	$k=1$\\
+    	$P=\frac{2}{3}$\\
+    	$q=1-\frac{2}{3}$\\
+    	$b^*(5;1,\frac{2}{3})=\left( \frac{4}{0}\right) \left( \frac{2}{3}\right)^1 \left( 1-\frac{2}{3}\right)^{4}$\\
+    	$b^*(5;1,\frac{2}{3})=\left( \frac{2}{3}\right)^k \left( 1-\frac{2}{3}\right)^{4}$\\
+    	$b^*(5;1,\frac{2}{3})=\frac{2}{3}\left(\frac{1}{8}\right)=0.0082$//
+    	\item La tercera preinscripción de Valium para una mujer.\\
+    	$x=5$\\
+    	$k=3$\\
+    	$P=\frac{2}{3}$\\
+    	$q=1-\frac{2}{3}$\\
+    	$b^*(5;3,\frac{2}{3})=\left( \frac{4}{2}\right) \left( \frac{2}{3}\right)^3 \left( 1-\frac{2}{3}\right)^{2}$\\
+    	$b^*(5;3,\frac{2}{3})=2\left( \frac{8}{27}\right) \left( \frac{1}{9}\right)= \frac{16}{243}=0.0658$\\
+    	
+    	
+    \end{enumerate}
+    
+    \vskip1cm
 
-    \textbf{8. }\vskip1cm
+    \textbf{8. }En promedio, en una cierta intersección ocurren 3 accidentes víales por mes. ¿Cúal es la probabilidad de que en un determinado mes en esta intersección\\
+	$\mu =3$\\    
+    \begin{enumerate}[a)]
+    \item Ocurran exactamente 5 accidentes?\\
+	$x=5$\\    
+    $P(x;\mu)= \frac{e^{-\mu}\mu ^x}{x!}$\\
+    $P(5;3)= \frac{e^{-3}(3)^x}{5!}=0.1008$\\
+    \item Ocurran menos de 3 accidentes?\\
+    $x<3$
+    $\sum^1_{x=0} P(x;3)=.1991$
+    
+    \end{enumerate}
+    
+    \vskip1cm
 
     \textbf{10. }\vskip1cm
 
