@@ -40,29 +40,51 @@
         {\large \today \par}
     \end{titlepage}
 
-    \textbf{2. }Dada una distribución normal, encuentre el área bajo la curva  que cae
+    \textbf{2. }Encuentre el valor de $z$ si el área bajo la curva normal estándar
         \begin{enumerate}[a)]
-            \item a la izuierda de $z=1.43$
-            \item a la derecha de $z=-0.89$
-            \item entre $z=-2.16$ y $z=-0.65$
-            \item a la izquierda de $z=-1.39$
-            \item a la derecha de $z=1.96$
-            \item entre $z=-0.48$ y $z=1.74$
+            \item a la derecha de $z$ es $1.43$\\
+                $z=1.07$
+            \item a la izquierda de $z$ es $0.1131$\\
+                $z=-1.21$
+            \item entre $0$ y $z$, con $z>0$, es $0.4838$\\
+                $P(z\leq Z)=0.4838+P(0\leq Z)=0.4838+0.5=0.9838$\\
+                $z=2.24$
+            \item entre $-z$ y $z$, con $z>0$, es $0.9500$\vskip0.5cm
+                $P(0\leq z\leq Z)=\displaystyle\frac{0.9500}{2}=0.475$\\
+                $P(z\leq Z)=0.475+P(0\leq Z)=0.475+0.5=0.975$\\
+                $z=1.96$
         \end{enumerate} \vskip1cm
 
     \textbf{4. } dada una distribución normal con $\mu = 30$ y $\sigma = 6$, encuentre
         \begin{enumerate}[a)]
-            \item el área de la curva normal a la derecha de $x=17$
-            \item el área de la curva normal a la izquierda de $x=22$
-            \item el área de la curva normal entre $x=32$ y $x=41$
-            \item el valor de $x$ que tiene el $80\%$ del área de la curva normal a la izquierda
+            \item el área de la curva normal a la derecha de $x=17$\vskip0.5cm
+                $z=\displaystyle\frac{17-30}{6}=-2.16$\vskip0.5cm
+                $P(-2.16>z)=P(2.16<z)=0.9846$
+            \item el área de la curva normal a la izquierda de $x=22$\vskip0.5cm
+                $z=\displaystyle\frac{22-30}{6}=-1.33$\vskip0.5cm
+                $P(-1.33<z)=0.0918$
+            \item el área de la curva normal entre $x=32$ y $x=41$\vskip0.5cm
+                $z_1=\displaystyle\frac{32-30}{6}=0.33$\vskip0.5cm
+                $z_2=\displaystyle\frac{41-30}{6}=1.83$\vskip0.5cm
+                $P(0.33<z<1.83)=P(1.83<z)-P(0.33<z)=0.9664-0.6293=0.3371$
+            \item el valor de $x$ que tiene el $80\%$ del área de la curva normal a la izquierda\\
+                $z=0.48$\\
+                $x=(0.48)(6)+30=32.88$
             \item los valres de $x$ que contienen un intervalo central de $75\%$ de la mitad del área de la curva normal
+
         \end{enumerate}\vskip1cm
 
     \textbf{6. }De acuerdo con el teorema de Chebyshev, la probabilidad de que cualquier variable aleatoria asuma un valor
     dentro de 3 desviaciones estándar de la media es al menos $8/9$. Si se sabe que la distribución de probabilidad de
     una variable aleatoria $X$ es normal con media $\mu$ y varianza $\sigma ^2$, ¿cuál es el valor exacto de
-    $P(\mu - 3\sigma <X<\mu + 3\sigma )$?vskip1cm
+    $P(\mu - 3\sigma <X<\mu + 3\sigma )$?\vskip0.5cm
+        $z_1=\displaystyle\frac{(\mu -3\sigma)-\mu}{\sigma}=\frac{-3\sigma}{\sigma}=-3$\vskip0.5cm
+        $z_2=\displaystyle\frac{(\mu +3\sigma)-\mu}{\sigma}=\frac{3\sigma}{\sigma}=3$\vskip0.5cm
+        $P(-3<z<3)=P(3<z)-P(-3<z)=0.9987-0.0013=0.9974$\vskip0.5cm
+        $P(\mu - 3\sigma <X<\mu + 3\sigma )=0.9974$
+    \vskip1cm
+
+
     \textbf{8. }Las piezas de pan del centro distribuidas a las tiendas locales por una cierta pasteleria tienen una
     longitud promedio de $30cm$ y una desviación estándar de $2cm$. Suponiendo que las longiudes  están normalmente
     distribuidas, ¿qué porcentaje de las piezas son
