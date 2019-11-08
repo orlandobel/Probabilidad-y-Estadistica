@@ -1,0 +1,164 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc} % Puede depender del sistema o editor
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{mathrsfs}
+\usepackage{pstricks-add}
+\usepackage{pgfkeys}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+\usepackage{tikz}
+\usetikzlibrary{fit,positioning}
+\begin{document}
+    \begin{titlepage}
+        \centering
+        {\scshape\LARGE Instituto Politécnico Nacional\\ Unidad Profesional Interdisiplinaria de Ingenierias campus Zacatecas\par}
+        \vspace{1cm}
+        {\scshape\Large Probabilidad Y Estadistica\par}
+        \vspace{1.5cm}
+        {\huge\bfseries Unidad 3 Tarea 4\par}
+        \vspace{2cm}
+        {\Large\itshape Gerardo Ayala Juárez\par}
+        {\Large\itshape Olando Odiseo Belmonte Flores\par}
+        {\Large\itshape Lucía Monserrat López Méndez\par}
+        {\Large\itshape Oscar Iván Palacios Ulloa\par}
+        {\Large\itshape José Mauricio Juanes Martínez\par}
+        \vfill
+        Maestro:\par
+        \textsc{
+        Rosendo Vasquez Bañuelos}
+        \vfill
+        % Bottom of the page
+        {\large \today \par}
+    \end{titlepage}
+
+    \textbf{2. }Dada una distribución normal, encuentre el área bajo la curva  que cae
+        \begin{enumerate}[a)]
+            \item a la izuierda de $z=1.43$
+            \item a la derecha de $z=-0.89$
+            \item entre $z=-2.16$ y $z=-0.65$
+            \item a la izquierda de $z=-1.39$
+            \item a la derecha de $z=1.96$
+            \item entre $z=-0.48$ y $z=1.74$
+        \end{enumerate} \vskip1cm
+
+    \textbf{4. } dada una distribución normal con $\mu = 30$ y $\sigma = 6$, encuentre
+        \begin{enumerate}[a)]
+            \item el área de la curva normal a la derecha de $x=17$
+            \item el área de la curva normal a la izquierda de $x=22$
+            \item el área de la curva normal entre $x=32$ y $x=41$
+            \item el valor de $x$ que tiene el $80\%$ del área de la curva normal a la izquierda
+            \item los valres de $x$ que contienen un intervalo central de $75\%$ de la mitad del área de la curva normal
+        \end{enumerate}\vskip1cm
+
+    \textbf{6. }De acuerdo con el teorema de Chebyshev, la probabilidad de que cualquier variable aleatoria asuma un valor
+    dentro de 3 desviaciones estándar de la media es al menos $8/9$. Si se sabe que la distribución de probabilidad de
+    una variable aleatoria $X$ es normal con media $\mu$ y varianza $\sigma ^2$, ¿cuál es el valor exacto de
+    $P(\mu - 3\sigma <X<\mu + 3\sigma )$?vskip1cm
+    \textbf{8. }Las piezas de pan del centro distribuidas a las tiendas locales por una cierta pasteleria tienen una
+    longitud promedio de $30cm$ y una desviación estándar de $2cm$. Suponiendo que las longiudes  están normalmente
+    distribuidas, ¿qué porcentaje de las piezas son
+        \begin{enumerate}[a)]
+            \item de mas de $31.7$ centímetros de longitud?
+            \item entre $29.3$ y $33.5$ centímetros de longitud?
+            \item de una longitud menor que $25.5$ centímetros?
+        \end{enumerate}\vskip1cm
+
+    \textbf{10. }El diámetro interno ya terminado de un anillo de pistón está normalmente distribuido con una media de $10$
+    centímetros y una desviación estándar de $0.03$ centímetros.
+        \begin{enumerate}[a)]
+            \item ¿Qué proporcion de los anillos tendrá un diámetro interno que exceda de $10.075$ centímetros?
+            \item ¿Cuál es la probabilidad de que un anillo de pistón tenga un diámetro interno entre $9.97$ y $10.03$
+                    centímetros?
+            \item ¿Abajo de qué valor de diámetro interno caerá el $15\%$ de los anillos de pistón?
+        \end{enumerate}\vskip1cm
+
+    \textbf{12. }Si un conjunto de calificaciónes de un examen de estadística se aproxima a una distribución normal con
+    una media de $74$ y una desviación estándar de $7.9$, encuentre
+        \begin{enumerate}[a)]
+            \item la calificación más baja de pase si al $10\%$ de los estudiantes más bajos se le dio una NA (No Acreditado)
+            \item la B (Bien) más alta si al $5\%$ superior de los estudiantes se le dio MB (Muy Bien)
+            \item La B más baja si al $10\%$ superior de los estudiantes se le dio MB y al siguiente $25\%$ se le dio B
+        \end{enumerate}\vskip1cm
+
+    \textbf{14. }Las estaturas de 1000 estudiantes están normalmente distribuidas con una media de $174.5$ centímetros y
+    una desviación estándar de $6.9$ centímetros. Suponiendo  que las alturas se registran cerrando los valores a los mdios
+    centímetros, ¿cuántos estudiantes tendrían estaturas
+        \begin{enumerate}[a)]
+            \item menores que $160.0$ centímetros?
+            \item entre $171.5$ y $182.0$ centímetros inclusive?
+            \item de $175.0$ centímetros?
+            \item mayores que o iguales a $188.0$ centímetros?
+        \end{enumerate}\vskip1cm
+
+    \textbf{16. }Los pesos de un número grande de perros de lana miniatura están dstribuidos aproximadamente de forma normal
+    con una media de $8$ kilogramos y  una desviación estándar de $0.9$ kilogramos. Si se registran mediciones y se cierran
+    a décimas de kilogramo, encuentre la fracción de éstos perros de lana con pesos
+        \begin{enumerate}[a)]
+            \item arriba de $9.5$ kilogramos
+            \item cuando mucho $8.6$ kilogramos
+            \item entre $7.3$ y $9.1$ kilogramos inclusive
+        \end{enumerate}\vskip1cm
+
+    \textbf{18. }Si un conjunto de observaciones están normalmente distribuidas, ¿qué porcentaje de éstas difiere de la
+    media en
+        \begin{enumerate}[a)]
+            \item más de $1.3\sigma$?
+            \item menos de $0.52\sigma$?
+        \end{enumerate}\vskip1cm
+
+    \textbf{20. }La precipiación pluvial promedio, registrada hasta centécimas de milímetro, en Roanoke, Virginia, en el
+    mes de Marzo es de $9.22$ centímetros. Suponiendo que se trata de una distribución normal con una desviación estándar
+    $2.83$ centímetros, encuentre la probabilidad de que el próximo marzo Roanoke tenga
+        \begin{enumerate}[a)]
+            \item menos de $1.84$ centímetros de lluvia
+            \item más de $5$ centímetros pero no más de 7 de lluvia
+            \item más de $13.8$ centímetros de lluvia
+        \end{enumerate}\vskip1cm
+
+    \textbf{22. }Una moneda se lanza 400 veces. Utilice la aproximación de la curva normal para encontrar la probabilidad
+    de obtener
+        \begin{enumerate}[a)]
+            \item entre $185$ y $210$ caras inclusive
+            \item exactamente $205$ caras
+            \item menos de $176$ o más de $227$ caras
+        \end{enumerate}\vskip1cm
+
+    \textbf{24. }Un proceso produce un $10\%$ de srtículos defectuosos. Si se seleccionan del proceso 100 artículos
+    aleatoriamente, ¿cuál es la probabilidad de que el número de defectuosos
+        \begin{enumerate}[a)]
+            \item exceda de $13$?
+            \item sea menor de $8$?
+        \end{enumerate}\vskip1cm
+
+    \textbf{26. }Investigadores de la George Washington University y el National Institute of Helath reportan que
+    aproximadamente $75\%$ de las personas creen que "los tranquilizantes funcionan muy bien para que una persona esté
+    más tranquila y relajada". De las siguientes 80 personas entrevistadas, ¿cuál es la probabilidad de que
+        \begin{enumerate}[a)]
+            \item al menos 50 sean de la misma opinión?
+            \item más de 56 sean de la misma opinión?
+        \end{enumerate}\vskip1cm
+
+    \textbf{28. }Un fabricante de medicamentos sostiene que cierta medicina cura una enfermedad de la sangre en el $80\%$
+    de los casos. Para verificarlo, los ispectores del gobierno utilizan el medicamento en una muestra de 100 individuos y
+    deciden aceptar dicha afirmación si se curan 75 o más
+        \begin{enumerate}[a)]
+            \item ¿Cuál es la probabilidad de que lo que se dice sea rechazado cuando la probabilidad de curación sea,
+                  en efecto, 0.8?
+            \item ¿Cuál es la probabilidad de que la afirmación sea aceptada por el gobierno cuando la probabilidad de
+                  curación sea menor a 0.7
+        \end{enumerate}\vskip1cm
+
+    \textbf{30. }Una compañia farmacéutica sabe que aproximadaente $5\%$ de sus píldoras para el control natal tiene un
+    ingrediente que está por debajo de la dosis mínima, lo que vuelve ineficaz la píldora. ¿Cuál es la probabilidad de que
+    menos de 10 en una muestra de 200 sea ineficaz?
+
+\end{document}
