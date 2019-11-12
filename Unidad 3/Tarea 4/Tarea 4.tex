@@ -1,4 +1,11 @@
 \documentclass[12pt, letterpaper]{article}
+\documentclass{article} %%% use \documentstyle for old LaTeX compilers
+
+\usepackage[english]{babel} %%% 'french', 'german', 'spanish', 'danish', etc.
+\usepackage{txfonts}
+\usepackage[classicReIm]{kpfonts}
+\usepackage[dvips]{graphicx} %%% use 'pdftex' instead of 'dvips' for PDF output
+
 \usepackage{babel}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
@@ -120,6 +127,35 @@
             \item de $175.0$ centímetros?
             \item mayores que o iguales a $188.0$ centímetros?
         \end{enumerate}\vskip1cm
+        
+\noindent 
+\noindent a)  \vskip
+\noindent z = (159.75-174.5) / 6.9 - 2.1377  \vskip
+\noindent P(X $\mathrm{<}$ 159.75) = P(z $\mathrm{<}$ -2.1377) - 0.0162  \vskip
+\noindent (1000)(0.0162) = 16.2 \vskip
+\noindent 16 estudiantes. \vskip
+\noindent  \vskip1cm
+\noindent  b)  \vskip
+\noindent Z1 = (171.25-174.5)/6.9 -0.47101  \vskip
+\noindent Z2= (182.25-174.5)/6.9  = 1.1232  \vskip
+\noindent P(171.25 $\mathrm{<}$ X$\mathrm{<}$ 182.25) = P(-0.47 $\mathrm{<}$ z $\mathrm{<}$ 1.12) = 0.8686 - 0.3192 = 0.5494  \vskip
+\noindent (1000)(0.5494) = 549.4  \vskip
+\noindent 549 estudiantes  \vskip
+\noindent  \vskip1cm
+\noindent c)  \vskip
+\noindent  z1 = (174.75-174.5)/6.9 = 3. 6232 x 10${}^{-2}$  \vskip
+\noindent z2 = (175.25-174.5)/6.9 = 0.10870  \vskip
+\noindent P(174.75 $\mathrm{<}$ X$\mathrm{<}$ 175.25) = P(3. 6232 x 10${}^{-2}$ $\mathrm{<}$ z $\mathrm{<}$ 0.10870) = 0.5438 - 0.516 = 0.0278  \vskip
+\noindent (1000)(0.0278) = 27.8  \vskip
+\noindent 28 estudiantes  \vskip
+\noindent  \vskip1cm
+\noindent d)  \vskip
+\noindent  z = (187.75-174.5)/6.9 = 1. 9203  \vskip
+\noindent P(X $\mathrm{>}$ 187.75)= -P(z $\mathrm{<}$ 1.9203)  +1=0.274  \vskip
+\noindent (1000)(0.0274) = 27.4  \vskip
+\noindent 27 estudiantes.  \vskip1cm
+\noindent 
+
 
     \textbf{16. }Los pesos de un número grande de perros de lana miniatura están dstribuidos aproximadamente de forma normal
     con una media de $8$ kilogramos y  una desviación estándar de $0.9$ kilogramos. Si se registran mediciones y se cierran
