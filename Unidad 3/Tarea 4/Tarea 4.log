@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.8.5)  7 NOV 2019 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.8.5)  12 NOV 2019 00:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1196,44 +1196,45 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1] [2]
-Overfull \hbox (18.21996pt too wide) in paragraph at lines 124--127
+) [1] [2] [3]
+[4]
+Overfull \hbox (18.21996pt too wide) in paragraph at lines 157--160
 []\T1/cmr/bx/n/12 16. \T1/cmr/m/n/12 Los pesos de un número grande de perros de
  lana miniatura están dstribuidos aproximadamente
  []
 
-[3]
-Overfull \hbox (1.8378pt too wide) in paragraph at lines 178--180
+[5] [6] [7]
+Overfull \hbox (1.8378pt too wide) in paragraph at lines 249--250
 []\T1/cmr/m/n/12 ¾Cuál es la probabilidad de que la afirmación sea aceptada por
  el gobierno cuando la probabilidad
  []
 
-[4] (./Tarea 4.aux) ) 
+[8] [9] (./Tarea 4.aux) ) 
 Here is how much of TeX's memory you used:
  26865 strings out of 492701
  506801 string characters out of 6134505
- 606698 words of memory out of 5000000
+ 605696 words of memory out of 5000000
  30302 multiletter control sequences out of 15000+600000
  544812 words of font info for 55 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 54i,5n,65p,667b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm
--super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/cm-super/sfcc1728.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/cm-super/sfcc2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-su
-per/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sft
-i1728.pfb>
-Output written on "Tarea 4.pdf" (5 pages, 148969 bytes).
+ 54i,6n,65p,667b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-supe
+r/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/cm-super/sfcc2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/c
+m-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super
+/sfti1728.pfb>
+Output written on "Tarea 4.pdf" (10 pages, 157757 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
